@@ -79,9 +79,9 @@
 <tr>
 <td><h5>search</h5><h6>light lichen</h6></td>
 <td><img src='http://www.colorhexa.com/e5bc5a.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/0082d8.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/0081d5.png' height='24' width='39'></td>
 <td colspan='2'><h5>constant</h5><h6>frost blue</h6></td>
-<td><img src='http://www.colorhexa.com/7299ca.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/7599c7.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/95638e.png' height='24' width='39'></td>
 <td><h5>search</h5><h6>dark icewine</h6></td>
 </tr>
@@ -115,7 +115,7 @@
 
 *because <img height="14" src='https://github.com/nightsense/snow/raw/master/images/blue.png' /> blue is the calm color of sea and sky, evoking enduring constancy, blue text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/0082d8.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/0081d5.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
 
 </td>
 
