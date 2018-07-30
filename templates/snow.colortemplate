@@ -20,7 +20,7 @@ Color:      red_ #c9534f ~
 Color:      gold #9b7a1f ~
 Color:      gren #46893b ~
 Color:      cyan #008f8e ~
-Color:      blue #0082d8 ~
+Color:      blue #0081d5 ~
 Color:      mgnt #b15ba7 ~
 Include:    _common.colortemplate
 
@@ -114,7 +114,7 @@ Color:      red_ #c9827b ~
 Color:      gold #ae9765 ~
 Color:      gren #7f9d77 ~
 Color:      cyan #61a19f ~
-Color:      blue #7299ca ~
+Color:      blue #7599c7 ~
 Color:      mgnt #b388ac ~
 Include:    _common.colortemplate
 

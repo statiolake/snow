@@ -4,7 +4,7 @@ let s:gry3 = [ "#4e5d73", 24 ]
 let s:red_ = [ "#c9534f", 167 ]
 let s:mgnt = [ "#b15ba7", 133 ]
 let s:gren = [ "#46893b", 28 ]
-let s:blue = [ "#0082d8", 32 ]
+let s:blue = [ "#0081d5", 32 ]
 
 let s:p = { "normal" : {} , "inactive": {} , "insert"  : {} ,
           \ "replace": {} , "visual"  : {} , "tabline" : {} }
