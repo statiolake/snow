@@ -16,12 +16,12 @@ Color:      sprd #ff0000 196
 Color:      spbl #0087ff 33
 Color:      spcy #008787 30
 Color:      spmg #d700d7 164
-Color:      red_ #c9534f ~
+Color:      red_ #c44f4c ~
 Color:      gold #967519 ~
 Color:      gren #46893b ~
 Color:      cyan #008f8e ~
-Color:      blue #0081d5 ~
-Color:      mgnt #b15ba7 ~
+Color:      blue #007ed1 ~
+Color:      mgnt #ad57a3 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim
@@ -110,12 +110,12 @@ Color:      spbl #5fafff 75
 Color:      spcy #00afaf 37
 Color:      spmg #d75fd7 170
 Color:      srch #95638e ~
-Color:      red_ #c9827b ~
-Color:      gold #a99260 ~
-Color:      gren #7f9d77 ~
-Color:      cyan #61a19f ~
-Color:      blue #7599c7 ~
-Color:      mgnt #b388ac ~
+Color:      red_ #ce877f ~
+Color:      gold #b49c69 ~
+Color:      gren #89a780 ~
+Color:      cyan #6baaa8 ~
+Color:      blue #7a9ecc ~
+Color:      mgnt #b88db1 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
