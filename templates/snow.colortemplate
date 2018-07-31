@@ -7,20 +7,20 @@ Terminal Colors: 256
 
 Background: light
 Color:      gry0 #f1f3f7 ~
-Color:      gry1 #dde3ed ~
+Color:      gry1 #dde3ec ~
 Color:      gry2 #748296 ~
 Color:      gry3 #505d70 ~
-Color:      gryc #2c3848 ~
+Color:      gryc #2d3847 ~
 Color:      srch #e5bc5a ~
 Color:      sprd #ff0000 196
 Color:      spbl #0087ff 33
 Color:      spcy #008787 30
 Color:      spmg #d700d7 164
 Color:      red_ #c24e4a ~
-Color:      gold #947417 ~
+Color:      gold #927215 ~
 Color:      gren #428638 ~
 Color:      cyan #008988 ~
-Color:      blue #007acd ~
+Color:      blue #007ccf ~
 Color:      mgnt #ad57a3 ~
 Include:    _common.colortemplate
 
@@ -101,20 +101,20 @@ endauxfile
 
 Background: dark
 Color:      gry0 #262e3a ~
-Color:      gry1 #2c3848 ~
+Color:      gry1 #2d3847 ~
 Color:      gry2 #748296 ~
 Color:      gry3 #9fadc2 ~
-Color:      gryc #dde3ed ~
+Color:      gryc #dde3ec ~
 Color:      sprd #ff5f5f 203
 Color:      spbl #5fafff 75
 Color:      spcy #00afaf 37
 Color:      spmg #d75fd7 170
 Color:      srch #95638e ~
 Color:      red_ #cc847d ~
-Color:      gold #b19967 ~
+Color:      gold #ae9765 ~
 Color:      gren #84a27b ~
 Color:      cyan #64a3a1 ~
-Color:      blue #7599c7 ~
+Color:      blue #779bc9 ~
 Color:      mgnt #b88db1 ~
 Include:    _common.colortemplate
 
