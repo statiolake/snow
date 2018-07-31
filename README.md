@@ -29,9 +29,9 @@
 <tr>
 <td width='202'><h5>background</h5><h6>snowy noon</h6></td>
 <td><img src='http://www.colorhexa.com/f1f3f7.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/b15ba7.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/ad57a3.png' height='24' width='39'></td>
 <td colspan='2'><h5>name</h5><h6>icewine red-purple</h6></td>
-<td><img src='http://www.colorhexa.com/b388ac.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b88db1.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/262e3a.png' height='24' width='39'></td>
 <td width='202'><h5>background</h5><h6>snowy midnight</h6></td>
 </tr>
@@ -39,30 +39,30 @@
 <tr>
 <td><h5>highlight</h5><h6>snowy day</h6></td>
 <td><img src='http://www.colorhexa.com/dde3ed.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/c9534f.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/c44f4c.png' height='24' width='39'></td>
 <td width='202' colspan='2'><h5>type</h5><h6>poinsettia red</h6></td>
-<td><img src='http://www.colorhexa.com/c9827b.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/ce877f.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/2c3848.png' height='24' width='39'></td>
 <td><h5>highlight</h5><h6>snowy night</h6></td>
 </tr>
 <tr></tr>
 <tr>
 <td><h5>comment</h5><h6>snowy dusk</h6></td>
-<td><img src='http://www.colorhexa.com/73839a.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/9b7a1f.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/748296.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/967519.png' height='24' width='39'></td>
 <td colspan='2'><h5>special</h5><h6>lichen gold</h6></td>
-<td><img src='http://www.colorhexa.com/ae9765.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/73839a.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b49c69.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/748296.png' height='24' width='39'></td>
 <td><h5>comment</h5><h6>snowy dusk</h6></td>
 </tr>
 <tr></tr>
 <tr>
 <td><h5>text</h5><h6>snowy twilight</h6></td>
-<td><img src='http://www.colorhexa.com/4e5d73.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/505d70.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/46893b.png' height='24' width='39'></td>
 <td colspan='2'><h5>statement</h5><h6>conifer green</h6></td>
-<td><img src='http://www.colorhexa.com/7f9d77.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/9dadc5.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/89a780.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/9fadc2.png' height='24' width='39'></td>
 <td><h5>text</h5><h6>snowy evening</h6></td>
 </tr>
 <tr></tr>
@@ -71,7 +71,7 @@
 <td><img src='http://www.colorhexa.com/2c3848.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/008f8e.png' height='24' width='39'></td>
 <td colspan='2'><h5>meta-statement</h5><h6>iceberg green-blue</h6></td>
-<td><img src='http://www.colorhexa.com/61a19f.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/6baaa8.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/dde3ed.png' height='24' width='39'></td>
 <td><h5>cursor</h5><h6>snowy day</h6></td>
 </tr>
@@ -79,9 +79,9 @@
 <tr>
 <td><h5>search</h5><h6>light lichen</h6></td>
 <td><img src='http://www.colorhexa.com/e5bc5a.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/0081d5.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/007ed1.png' height='24' width='39'></td>
 <td colspan='2'><h5>constant</h5><h6>frost blue</h6></td>
-<td><img src='http://www.colorhexa.com/7599c7.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/7a9ecc.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/95638e.png' height='24' width='39'></td>
 <td><h5>search</h5><h6>dark icewine</h6></td>
 </tr>
