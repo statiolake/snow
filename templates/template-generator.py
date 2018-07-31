@@ -117,7 +117,7 @@ hexred__dk = tohex( gold(1.00) , gold(2.38) , hue_red_ )
 hexgold_dk = tohex( gold(0.91) , gold(2.50) , hue_gold )
 hexgren_dk = tohex( gold(0.94) , gold(3.00) , hue_gren )
 hexcyan_dk = tohex( gold(0.97) , gold(3.12) , hue_cyan )
-hexblue_dk = tohex( gold(0.97) , gold(2.75) , hue_blue )
+hexblue_dk = tohex( gold(0.97) , gold(2.62) , hue_blue )
 hexmgnt_dk = tohex( gold(0.94) , gold(2.75) , hue_mgnt )
 
 print 'Author:          nightsense'
