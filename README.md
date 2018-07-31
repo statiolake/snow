@@ -31,7 +31,7 @@
 <td><img src='http://www.colorhexa.com/f1f3f7.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/ad54a2.png' height='24' width='39'></td>
 <td colspan='2'><h5>name</h5><h6>icewine red-purple</h6></td>
-<td><img src='http://www.colorhexa.com/b889b0.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b587ae.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/262e3a.png' height='24' width='39'></td>
 <td width='202'><h5>background</h5><h6>snowy midnight</h6></td>
 </tr>
@@ -51,7 +51,7 @@
 <td><img src='http://www.colorhexa.com/748296.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/937107.png' height='24' width='39'></td>
 <td colspan='2'><h5>special</h5><h6>lichen gold</h6></td>
-<td><img src='http://www.colorhexa.com/ae9765.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/a99260.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/748296.png' height='24' width='39'></td>
 <td><h5>comment</h5><h6>snowy dusk</h6></td>
 </tr>
@@ -61,7 +61,7 @@
 <td><img src='http://www.colorhexa.com/505d70.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/408636.png' height='24' width='39'></td>
 <td colspan='2'><h5>statement</h5><h6>conifer green</h6></td>
-<td><img src='http://www.colorhexa.com/82a37a.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/7e9e75.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/9fadc2.png' height='24' width='39'></td>
 <td><h5>text</h5><h6>snowy evening</h6></td>
 </tr>
@@ -71,7 +71,7 @@
 <td><img src='http://www.colorhexa.com/2c3848.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/008989.png' height='24' width='39'></td>
 <td colspan='2'><h5>meta-statement</h5><h6>iceberg green-blue</h6></td>
-<td><img src='http://www.colorhexa.com/60a4a2.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/5da19f.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/dde3ed.png' height='24' width='39'></td>
 <td><h5>cursor</h5><h6>snowy day</h6></td>
 </tr>
