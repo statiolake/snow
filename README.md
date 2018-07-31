@@ -82,7 +82,7 @@
 <td><img src='http://www.colorhexa.com/007ad0.png' height='24' width='39'></td>
 <td colspan='2'><h5>constant</h5><h6>frost blue</h6></td>
 <td><img src='http://www.colorhexa.com/7299ca.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/5da1a4.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b387b6.png' height='24' width='39'></td>
 <td><h5>search</h5><h6>icewine</h6></td>
 </tr>
 <tr></tr>
