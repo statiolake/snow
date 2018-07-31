@@ -20,8 +20,8 @@ Color:      red_ #c24a47 ~
 Color:      gold #97750d ~
 Color:      gren #418737 ~
 Color:      cyan #008a8a ~
-Color:      blue #007cd0 ~
-Color:      mgnt #b057a5 ~
+Color:      blue #007acd ~
+Color:      mgnt #ad55a3 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim
@@ -114,8 +114,8 @@ Color:      red_ #c9827b ~
 Color:      gold #b49c69 ~
 Color:      gren #84a47b ~
 Color:      cyan #61a4a2 ~
-Color:      blue #789cca ~
-Color:      mgnt #bc8db4 ~
+Color:      blue #7599c7 ~
+Color:      mgnt #b88ab1 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
