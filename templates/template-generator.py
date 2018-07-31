@@ -107,18 +107,18 @@ hexgry3_dk = tohex( gold(0.74) , gold(4.25) , hue_blue )
 hexsrch_dk = tohex( gold(1.50) , gold(2.50) , hue_mgnt )
 
 hexred__lt = tohex( gold(1.50) , gold(1.19) , hue_red_ )
-hexgold_lt = tohex( gold(1.44) , gold(1.25) , hue_gold )
-hexgren_lt = tohex( gold(1.44) , gold(1.44) , hue_gren )
-hexcyan_lt = tohex( gold(1.47) , gold(1.50) , hue_cyan )
+hexgold_lt = tohex( gold(1.50) , gold(1.25) , hue_gold )
+hexgren_lt = tohex( gold(1.50) , gold(1.44) , hue_gren )
+hexcyan_lt = tohex( gold(1.50) , gold(1.50) , hue_cyan )
 hexblue_lt = tohex( gold(1.50) , gold(1.31) , hue_blue )
-hexmgnt_lt = tohex( gold(1.47) , gold(1.38) , hue_mgnt )
+hexmgnt_lt = tohex( gold(1.50) , gold(1.38) , hue_mgnt )
 
 hexred__dk = tohex( gold(1.00) , gold(2.38) , hue_red_ )
-hexgold_dk = tohex( gold(0.94) , gold(2.50) , hue_gold )
-hexgren_dk = tohex( gold(0.94) , gold(2.88) , hue_gren )
-hexcyan_dk = tohex( gold(0.97) , gold(3.00) , hue_cyan )
+hexgold_dk = tohex( gold(1.00) , gold(2.50) , hue_gold )
+hexgren_dk = tohex( gold(1.00) , gold(2.88) , hue_gren )
+hexcyan_dk = tohex( gold(1.00) , gold(3.00) , hue_cyan )
 hexblue_dk = tohex( gold(1.00) , gold(2.62) , hue_blue )
-hexmgnt_dk = tohex( gold(0.97) , gold(2.75) , hue_mgnt )
+hexmgnt_dk = tohex( gold(1.00) , gold(2.75) , hue_mgnt )
 
 print 'Author:          nightsense'
 print 'Maintainer:      nightsense'
