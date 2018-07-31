@@ -6,22 +6,23 @@ Short name:      snow
 Terminal Colors: 256
 
 Background: light
-Color:      gry0 #f1f3f7 ~
-Color:      gry1 #dde3ec ~
-Color:      gry2 #748296 ~
-Color:      gry3 #505d70 ~
-Color:      gryc #2d3847 ~
-Color:      srch #e5bc5a ~
-Color:      sprd #ff0000 196
+Color:      gry0 #f2f3f5 ~
+Color:      gry1 #dfe3ea ~
+Color:      gry2 #768294 ~
+Color:      gry3 #525d6e ~
+Color:      gryc #303842 ~
+Color:      srch #e8bc4a ~
+Color:      grys #303842 ~
+Color:      sprd #ff005f 197
 Color:      spbl #0087ff 33
-Color:      spcy #008787 30
+Color:      spcy #0087af 31
 Color:      spmg #d700d7 164
-Color:      red_ #c24a47 ~
-Color:      gold #937107 ~
-Color:      gren #408636 ~
-Color:      cyan #008989 ~
-Color:      blue #007acd ~
-Color:      mgnt #ad54a2 ~
+Color:      red_ #bb4f57 ~
+Color:      gold #8d6e19 ~
+Color:      gren #2d833d ~
+Color:      cyan #008792 ~
+Color:      blue #0779c5 ~
+Color:      mgnt #9f59a6 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim
@@ -100,22 +101,23 @@ let g:lightline#colorscheme#snow_light#palette =
 endauxfile
 
 Background: dark
-Color:      gry0 #262e3a ~
-Color:      gry1 #2d3847 ~
-Color:      gry2 #748296 ~
-Color:      gry3 #9fadc2 ~
-Color:      gryc #dde3ec ~
-Color:      sprd #ff5f5f 203
-Color:      spbl #5fafff 75
+Color:      gry0 #292e35 ~
+Color:      gry1 #303842 ~
+Color:      gry2 #768294 ~
+Color:      gry3 #a0adc0 ~
+Color:      gryc #dfe3ea ~
+Color:      srch #5da1a4 ~
+Color:      grys #292e35 ~
+Color:      sprd #ff5f87 204
+Color:      spbl #5fd7ff 81
 Color:      spcy #00afaf 37
 Color:      spmg #d75fd7 170
-Color:      srch #95638e ~
-Color:      red_ #c9827b ~
-Color:      gold #a99260 ~
-Color:      gren #7e9e75 ~
-Color:      cyan #5da19f ~
-Color:      blue #7599c7 ~
-Color:      mgnt #b587ae ~
+Color:      red_ #be8786 ~
+Color:      gold #a6936c ~
+Color:      gren #799f7b ~
+Color:      cyan #5da1a4 ~
+Color:      blue #7c98bf ~
+Color:      mgnt #ad8aaf ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
