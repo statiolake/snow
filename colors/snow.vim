@@ -69,14 +69,14 @@ if &background ==# 'dark'
   hi Identifier ctermfg=139 ctermbg=NONE guifg=#b387b6 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi TooLong ctermfg=139 ctermbg=236 guifg=#b387b6 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi WarningMsg ctermfg=139 ctermbg=236 guifg=#b387b6 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi StorageClass ctermfg=138 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Structure ctermfg=138 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Type ctermfg=138 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi Typedef ctermfg=138 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi DiffDelete ctermfg=138 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi DiffRemoved ctermfg=138 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi Error ctermfg=138 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi ErrorMsg ctermfg=138 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi StorageClass ctermfg=174 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi Structure ctermfg=174 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi Type ctermfg=174 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi Typedef ctermfg=174 ctermbg=NONE guifg=#c88282 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi DiffDelete ctermfg=174 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi DiffRemoved ctermfg=174 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi Error ctermfg=174 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi ErrorMsg ctermfg=174 ctermbg=236 guifg=#c88282 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi Debug ctermfg=137 ctermbg=NONE guifg=#a99260 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Delimiter ctermfg=137 ctermbg=NONE guifg=#a99260 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Special ctermfg=137 ctermbg=NONE guifg=#a99260 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -222,12 +222,12 @@ finish
 " Color:      spbl #0087ff 033
 " Color:      spcy #0087af 031
 " Color:      spmg #d700d7 164
-" Color:      red_ #c34853      131
-" Color:      gold #8f6e01      094
-" Color:      gren #1a8536      028
-" Color:      cyan #008996      030
-" Color:      blue #007ad0      032
-" Color:      mgnt #a454ad      133
+" Color:      red_ #c34853      ~
+" Color:      gold #8f6e01      ~
+" Color:      gren #1a8536      ~
+" Color:      cyan #008996      ~
+" Color:      blue #007ad0      ~
+" Color:      mgnt #a454ad      ~
 " Bold               none   none   bold
 " Conceal            none   none
 " Directory          none   none   bold
@@ -334,12 +334,12 @@ finish
 " Color:      spbl #0087ff 033
 " Color:      spcy #0087af 031
 " Color:      spmg #d700d7 164
-" Color:      red_ #c88282      138
-" Color:      gold #a99260      137
-" Color:      gren #71a174      108
-" Color:      cyan #45a4a9      073
-" Color:      blue #7299ca      067
-" Color:      mgnt #b387b6      139
+" Color:      red_ #c88282      ~
+" Color:      gold #a99260      ~
+" Color:      gren #71a174      ~
+" Color:      cyan #45a4a9      ~
+" Color:      blue #7299ca      ~
+" Color:      mgnt #b387b6      ~
 " Bold               none   none   bold
 " Conceal            none   none
 " Directory          none   none   bold

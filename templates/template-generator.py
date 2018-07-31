@@ -138,12 +138,12 @@ print 'Color:      sprd #ff005f 197'
 print 'Color:      spbl #0087ff 033'
 print 'Color:      spcy #0087af 031'
 print 'Color:      spmg #d700d7 164'
-print 'Color:      red_ %s      131' % hexred__lt
-print 'Color:      gold %s      094' % hexgold_lt
-print 'Color:      gren %s      028' % hexgren_lt
-print 'Color:      cyan %s      030' % hexcyan_lt
-print 'Color:      blue %s      032' % hexblue_lt
-print 'Color:      mgnt %s      133' % hexmgnt_lt
+print 'Color:      red_ %s      ~' % hexred__lt
+print 'Color:      gold %s      ~' % hexgold_lt
+print 'Color:      gren %s      ~' % hexgren_lt
+print 'Color:      cyan %s      ~' % hexcyan_lt
+print 'Color:      blue %s      ~' % hexblue_lt
+print 'Color:      mgnt %s      ~' % hexmgnt_lt
 print 'Include:    _common.colortemplate'
 print ''
 print_airline('snow','light')
@@ -161,12 +161,12 @@ print 'Color:      sprd #ff005f 197'
 print 'Color:      spbl #0087ff 033'
 print 'Color:      spcy #0087af 031'
 print 'Color:      spmg #d700d7 164'
-print 'Color:      red_ %s      138' % hexred__dk
-print 'Color:      gold %s      137' % hexgold_dk
-print 'Color:      gren %s      108' % hexgren_dk
-print 'Color:      cyan %s      073' % hexcyan_dk
-print 'Color:      blue %s      067' % hexblue_dk
-print 'Color:      mgnt %s      139' % hexmgnt_dk
+print 'Color:      red_ %s      ~' % hexred__dk
+print 'Color:      gold %s      ~' % hexgold_dk
+print 'Color:      gren %s      ~' % hexgren_dk
+print 'Color:      cyan %s      ~' % hexcyan_dk
+print 'Color:      blue %s      ~' % hexblue_dk
+print 'Color:      mgnt %s      ~' % hexmgnt_dk
 print 'Include:    _common.colortemplate'
 print ''
 print_airline('snow','dark')
