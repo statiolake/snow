@@ -1,9 +1,9 @@
 let s:gry0 = [ "#f1f3f7", 255 ]
 let s:gry1 = [ "#dde3ec", 254 ]
 let s:gry3 = [ "#505d70", 59 ]
-let s:red_ = [ "#c24a47", 131 ]
-let s:mgnt = [ "#ad55a3", 133 ]
-let s:gren = [ "#418737", 28 ]
+let s:red_ = [ "#c14b48", 131 ]
+let s:mgnt = [ "#af56a4", 133 ]
+let s:gren = [ "#408636", 28 ]
 let s:blue = [ "#007acd", 32 ]
 
 let s:p = { "normal" : {} , "inactive": {} , "insert"  : {} ,
