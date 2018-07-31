@@ -29,9 +29,9 @@
 <tr>
 <td width='202'><h5>background</h5><h6>snowy noon</h6></td>
 <td><img src='http://www.colorhexa.com/f1f3f7.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/b057a5.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/ad55a3.png' height='24' width='39'></td>
 <td colspan='2'><h5>name</h5><h6>icewine red-purple</h6></td>
-<td><img src='http://www.colorhexa.com/bc8db4.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b88ab1.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/262e3a.png' height='24' width='39'></td>
 <td width='202'><h5>background</h5><h6>snowy midnight</h6></td>
 </tr>
@@ -79,9 +79,9 @@
 <tr>
 <td><h5>search</h5><h6>light lichen</h6></td>
 <td><img src='http://www.colorhexa.com/e5bc5a.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/007cd0.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/007acd.png' height='24' width='39'></td>
 <td colspan='2'><h5>constant</h5><h6>frost blue</h6></td>
-<td><img src='http://www.colorhexa.com/789cca.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/7599c7.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/95638e.png' height='24' width='39'></td>
 <td><h5>search</h5><h6>dark icewine</h6></td>
 </tr>
