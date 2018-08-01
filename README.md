@@ -77,13 +77,13 @@
 </tr>
 <tr></tr>
 <tr>
-<td><h5>search</h5><h6>lichen</h6></td>
-<td><img src='http://www.colorhexa.com/e8bc4a.png' height='24' width='39'></td>
+<td></td>
+<td></td>
 <td><img src='http://www.colorhexa.com/007ad0.png' height='24' width='39'></td>
 <td colspan='2'><h5>constant</h5><h6>frost blue</h6></td>
 <td><img src='http://www.colorhexa.com/7299ca.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/b387b6.png' height='24' width='39'></td>
-<td><h5>search</h5><h6>icewine</h6></td>
+<td></td>
+<td></td>
 </tr>
 <tr></tr>
 
@@ -145,31 +145,31 @@ call plug#end()
 For a snow day, add the following to vimrc:
 
 ```
-colorscheme snow
 set background=light
+colorscheme snow
 ```
 
 For a snowy evening:
 
 ```
-colorscheme snow
 set background=dark
+colorscheme snow
 ```
 
 To set the background automatically based on the time at which vim is launched:
 
 ```
-colorscheme snow
 if strftime('%H') >= 7 && strftime('%H') < 19
   set background=light
 else
   set background=dark
 endif
+colorscheme snow
 ```
 
 ...which activates the light version of snow during the day (defined here as 7AM-7PM), dark version at night.
 
-> The [night-and-day](https://github.com/nightsense/night-and-day) plugin can switch themes and/or backgrounds automatically, using absolute or sun-relative time.
+> Be sure to set `colorscheme` *after* `background`, otherwise some theme colors may not be set.
 
 ## status line themes
 
@@ -196,7 +196,6 @@ snow comes with themes for airline and lightline, which can be activated with th
 Status line themes can be added to the time-based snippet above:
 
 ```
-colorscheme snow
 if strftime('%H') >= 7 && strftime('%H') < 19
   set background=light
   let g:lightline = { 'colorscheme': 'snow_light' }
@@ -204,6 +203,7 @@ else
   set background=dark
   let g:lightline = { 'colorscheme': 'snow_dark' }
 endif
+colorscheme snow
 ```
 
 ## terminal vim
