@@ -87,7 +87,7 @@ if &background ==# 'dark'
   hi Todo ctermfg=137 ctermbg=NONE guifg=#a99260 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi DiffChanged ctermfg=137 ctermbg=236 guifg=#a99260 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi DiffText ctermfg=137 ctermbg=236 guifg=#a99260 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi Search ctermfg=139 ctermbg=236 guifg=#b387b6 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi Search ctermfg=137 ctermbg=236 guifg=#a99260 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi Conditional ctermfg=108 ctermbg=NONE guifg=#71a174 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Exception ctermfg=108 ctermbg=NONE guifg=#71a174 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Keyword ctermfg=108 ctermbg=NONE guifg=#71a174 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -328,7 +328,7 @@ finish
 " Color:      gry2 #768294 ~
 " Color:      gry3 #a0adc0 ~
 " Color:      gryc #dfe3ea ~
-" Color:      srch #b387b6 ~
+" Color:      srch #a99260 ~
 " Color:      grys #292e35 ~
 " Color:      sprd #ff005f ~
 " Color:      spbl #0087ff ~
