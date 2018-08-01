@@ -87,6 +87,7 @@ if &background ==# 'dark'
   hi Todo ctermfg=137 ctermbg=NONE guifg=#a99260 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi DiffChanged ctermfg=137 ctermbg=236 guifg=#a99260 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi DiffText ctermfg=137 ctermbg=236 guifg=#a99260 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+  hi Search ctermfg=139 ctermbg=236 guifg=#b387b6 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi Conditional ctermfg=108 ctermbg=NONE guifg=#71a174 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Exception ctermfg=108 ctermbg=NONE guifg=#71a174 guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Keyword ctermfg=108 ctermbg=NONE guifg=#71a174 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -110,7 +111,6 @@ if &background ==# 'dark'
   hi Number ctermfg=67 ctermbg=NONE guifg=#7299ca guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi String ctermfg=67 ctermbg=NONE guifg=#7299ca guibg=NONE guisp=NONE cterm=NONE gui=NONE
   hi Visual ctermfg=67 ctermbg=236 guifg=#7299ca guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-  hi Search ctermfg=139 ctermbg=236 guifg=#b387b6 guibg=#292e35 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   finish
 endif
 
@@ -184,6 +184,7 @@ hi Tag ctermfg=94 ctermbg=NONE guifg=#8f6e01 guibg=NONE guisp=NONE cterm=NONE gu
 hi Todo ctermfg=94 ctermbg=NONE guifg=#8f6e01 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi DiffChanged ctermfg=94 ctermbg=255 guifg=#8f6e01 guibg=#f2f3f5 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi DiffText ctermfg=94 ctermbg=255 guifg=#8f6e01 guibg=#f2f3f5 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
+hi Search ctermfg=178 ctermbg=237 guifg=#e8bc4a guibg=#303842 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi Conditional ctermfg=28 ctermbg=NONE guifg=#1a8536 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Exception ctermfg=28 ctermbg=NONE guifg=#1a8536 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Keyword ctermfg=28 ctermbg=NONE guifg=#1a8536 guibg=NONE guisp=NONE cterm=NONE gui=NONE
@@ -207,7 +208,6 @@ hi Float ctermfg=32 ctermbg=NONE guifg=#007ad0 guibg=NONE guisp=NONE cterm=NONE 
 hi Number ctermfg=32 ctermbg=NONE guifg=#007ad0 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi String ctermfg=32 ctermbg=NONE guifg=#007ad0 guibg=NONE guisp=NONE cterm=NONE gui=NONE
 hi Visual ctermfg=32 ctermbg=255 guifg=#007ad0 guibg=#f2f3f5 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
-hi Search ctermfg=178 ctermbg=237 guifg=#e8bc4a guibg=#303842 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 finish
 
 " Background: light
@@ -298,6 +298,7 @@ finish
 " Todo               gold   none
 " DiffChanged        gold   gry0   reverse
 " DiffText           gold   gry0   reverse
+" Search             srch   grys   reverse
 " Conditional        gren   none
 " Exception          gren   none
 " Keyword            gren   none
@@ -321,7 +322,6 @@ finish
 " Number             blue   none
 " String             blue   none
 " Visual             blue   gry0   reverse
-" Search             srch   grys   reverse
 " Background: dark
 " Color:      gry0 #292e35 ~
 " Color:      gry1 #303842 ~
@@ -410,6 +410,7 @@ finish
 " Todo               gold   none
 " DiffChanged        gold   gry0   reverse
 " DiffText           gold   gry0   reverse
+" Search             srch   grys   reverse
 " Conditional        gren   none
 " Exception          gren   none
 " Keyword            gren   none
@@ -433,4 +434,3 @@ finish
 " Number             blue   none
 " String             blue   none
 " Visual             blue   gry0   reverse
-" Search             srch   grys   reverse
