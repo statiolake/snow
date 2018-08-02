@@ -218,7 +218,7 @@ In most cases, the only vimrc setting you need is:
 set termguicolors
 ```
 
-In some cases you'll also need:
+In some cases you'll also need (see `:h xterm-true-color` for details):
 
 ```
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
