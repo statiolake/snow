@@ -169,7 +169,7 @@ colorscheme snow
 
 ...which activates the light version of snow during the day (defined here as 7AM-7PM), dark version at night.
 
-> Be sure to set `colorscheme` after `background`, otherwise some theme colors may not be set.
+> Be sure to set `colorscheme` after `background`, otherwise some theme colors may not be applied.
 
 ## status line themes
 
