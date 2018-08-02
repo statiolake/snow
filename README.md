@@ -27,10 +27,10 @@
 <tr></tr>
 
 <tr>
-<td width='202'>`Normal bg`</td>
+<td width='202'><code>Normal bg`</td>
 <td><img src='http://www.colorhexa.com/f2f3f5.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/a8559e.png' height='24' width='39'></td>
-<td colspan='2'>`Identifier`</td>
+<td colspan='2'><code>Identifier`</td>
 <td><img src='http://www.colorhexa.com/b289ab.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/292e35.png' height='24' width='39'></td>
 <td width='202'><h5>background</h5></td>
@@ -47,7 +47,7 @@
 </tr>
 <tr></tr>
 <tr>
-<td>`Comment`</td>
+<td><code>Comment<code></td>
 <td><img src='http://www.colorhexa.com/768294.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/8e6e10.png' height='24' width='39'></td>
 <td colspan='2'><h5>special</h5></td>
@@ -57,7 +57,7 @@
 </tr>
 <tr></tr>
 <tr>
-<td>`Normal fg`</td>
+<td><code>Normal fg</code></td>
 <td><img src='http://www.colorhexa.com/525d6e.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/4d802c.png' height='24' width='39'></td>
 <td colspan='2'><h5>statement</h5></td>
@@ -67,7 +67,7 @@
 </tr>
 <tr></tr>
 <tr>
-<td>`Cursor`</td>
+<td><code>Cursor</code></td>
 <td><img src='http://www.colorhexa.com/303842.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/008888.png' height='24' width='39'></td>
 <td colspan='2'><h5>meta-statement</h5></td>
