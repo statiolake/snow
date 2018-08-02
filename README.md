@@ -27,60 +27,60 @@
 <tr></tr>
 
 <tr>
-<td width='202'><h5>background</h5><h6>snowy noon</h6></td>
+<td width='202'><h5>background</h5></td>
 <td><img src='http://www.colorhexa.com/f2f3f5.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/a8559e.png' height='24' width='39'></td>
-<td colspan='2'><h5>name</h5><h6>icewine red-purple</h6></td>
+<td colspan='2'><h5>name</h5></td>
 <td><img src='http://www.colorhexa.com/b289ab.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/292e35.png' height='24' width='39'></td>
-<td width='202'><h5>background</h5><h6>snowy midnight</h6></td>
+<td width='202'><h5>background</h5></td>
 </tr>
 <tr></tr>
 <tr>
-<td><h5>highlight</h5><h6>snowy day</h6></td>
+<td><h5>highlight</h5></td>
 <td><img src='http://www.colorhexa.com/dfe3ea.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/bc503e.png' height='24' width='39'></td>
-<td width='202' colspan='2'><h5>type</h5><h6>poinsettia red</h6></td>
+<td width='202' colspan='2'><h5>type</h5></td>
 <td><img src='http://www.colorhexa.com/c48576.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/303842.png' height='24' width='39'></td>
-<td><h5>highlight</h5><h6>snowy night</h6></td>
+<td><h5>highlight</h5></td>
 </tr>
 <tr></tr>
 <tr>
-<td><h5>comment</h5><h6>snowy dusk</h6></td>
+<td><h5>comment</h5></td>
 <td><img src='http://www.colorhexa.com/768294.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/8e6e10.png' height='24' width='39'></td>
-<td colspan='2'><h5>special</h5><h6>lichen gold</h6></td>
+<td colspan='2'><h5>special</h5></td>
 <td><img src='http://www.colorhexa.com/a89266.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/768294.png' height='24' width='39'></td>
-<td><h5>comment</h5><h6>snowy dusk</h6></td>
+<td><h5>comment</h5></td>
 </tr>
 <tr></tr>
 <tr>
-<td><h5>text</h5><h6>snowy twilight</h6></td>
+<td><h5>text</h5></td>
 <td><img src='http://www.colorhexa.com/525d6e.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/4d802c.png' height='24' width='39'></td>
-<td colspan='2'><h5>statement</h5><h6>conifer green</h6></td>
+<td colspan='2'><h5>statement</h5></td>
 <td><img src='http://www.colorhexa.com/859c73.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/a0adc0.png' height='24' width='39'></td>
-<td><h5>text</h5><h6>snowy evening</h6></td>
+<td><h5>text</h5></td>
 </tr>
 <tr></tr>
 <tr>
-<td><h5>cursor</h5><h6>snowy night</h6></td>
+<td><h5>cursor</h5></td>
 <td><img src='http://www.colorhexa.com/303842.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/008888.png' height='24' width='39'></td>
-<td colspan='2'><h5>meta-statement</h5><h6>iceberg green-blue</h6></td>
+<td colspan='2'><h5>meta-statement</h5></td>
 <td><img src='http://www.colorhexa.com/65a09e.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/dfe3ea.png' height='24' width='39'></td>
-<td><h5>cursor</h5><h6>snowy day</h6></td>
+<td><h5>cursor</h5></td>
 </tr>
 <tr></tr>
 <tr>
 <td></td>
 <td></td>
 <td><img src='http://www.colorhexa.com/2079c1.png' height='24' width='39'></td>
-<td colspan='2'><h5>constant</h5><h6>frost blue</h6></td>
+<td colspan='2'><h5>constant</h5></td>
 <td><img src='http://www.colorhexa.com/7899c4.png' height='24' width='39'></td>
 <td></td>
 <td></td>
@@ -210,7 +210,7 @@ colorscheme snow
 
 ### colors
 
-Terminals/multiplexers with [true-color support](https://gist.github.com/XVilka/8346728#now-supporting-truecolour) can display the exact snow colors.
+Terminals/multiplexers with [true-color support](https://gist.github.com/XVilka/8346728#now-supporting-truecolour) can display the exact colors of the snow theme.
 
 In most cases, the only vimrc setting you need is:
 
@@ -218,7 +218,7 @@ In most cases, the only vimrc setting you need is:
 set termguicolors
 ```
 
-In some cases you'll also need (see `:h xterm-true-color` for details):
+In some cases you'll also need (see `:h xterm-true-color` for explanation):
 
 ```
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
