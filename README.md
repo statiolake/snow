@@ -33,7 +33,7 @@
 <td colspan='2'><code>Identifier</code></td>
 <td><img src='http://www.colorhexa.com/b289ab.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/292e35.png' height='24' width='39'></td>
-<td width='202'><code>background</code></td>
+<td width='202'><code>Normal bg</code></td>
 </tr>
 <tr></tr>
 <tr>
@@ -43,7 +43,7 @@
 <td width='202' colspan='2'><code>Type</code></td>
 <td><img src='http://www.colorhexa.com/c48576.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/303842.png' height='24' width='39'></td>
-<td><code>highlight</code></td>
+<td><code>ColorColumn</code></td>
 </tr>
 <tr></tr>
 <tr>
@@ -53,7 +53,7 @@
 <td colspan='2'><code>Special</code></td>
 <td><img src='http://www.colorhexa.com/a89266.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/768294.png' height='24' width='39'></td>
-<td><code>comment</code></td>
+<td><code>Comment</code></td>
 </tr>
 <tr></tr>
 <tr>
@@ -63,7 +63,7 @@
 <td colspan='2'><code>Statement</code></td>
 <td><img src='http://www.colorhexa.com/859c73.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/a0adc0.png' height='24' width='39'></td>
-<td><code>text</code></td>
+<td><code>Normal fg</code></td>
 </tr>
 <tr></tr>
 <tr>
@@ -73,7 +73,7 @@
 <td colspan='2'><code>PreProc</code></td>
 <td><img src='http://www.colorhexa.com/65a09e.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/dfe3ea.png' height='24' width='39'></td>
-<td><code>cursor</code></td>
+<td><code>Cursor</code></td>
 </tr>
 <tr></tr>
 <tr>
