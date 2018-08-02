@@ -210,7 +210,7 @@ colorscheme snow
 
 ### colors
 
-Terminals/multiplexers with true-color support (see [list](https://gist.github.com/XVilka/8346728)) can display the exact snow colors.
+Terminals/multiplexers with true-color support (see [list](https://gist.github.com/XVilka/8346728#now-supporting-truecolour)) can display the exact snow colors.
 
 In most cases, the only vimrc setting you need is:
 
@@ -225,7 +225,9 @@ let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 ```
 
-If `termguicolors` is not set, terminal vim will fall back to an [xterm-color](https://commons.wikimedia.org/wiki/File:Xterm_256color_chart.svg) approximation of snow.
+If `termguicolors` is not set, terminal vim will fall back to an 256-color approximation of snow.
+
+> The fallback version of snow defines colors using numbers in the range 0-255 (as opposed to hex rgb codes, whose range of 2²⁴ values is known as "true color"). The exact color referenced by each number varies by terminal. The closest thing to a standard 256-color \*.nix palette is that used by [xterm](https://commons.wikimedia.org/wiki/File:Xterm_256color_chart.svg), the default X Windows terminal emulator.
 
 ### cursor shape
 
