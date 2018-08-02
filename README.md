@@ -123,7 +123,7 @@
 
 ## installation
 
-If you don’t have a preferred plugin management method, consider [vim-plug](https://github.com/junegunn/vim-plug), which can be installed (on \*nix systems) with:
+If you don’t have a preferred plugin management method, consider [vim-plug](https://github.com/junegunn/vim-plug), which can be installed (on ∗nix systems) with:
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
