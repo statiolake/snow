@@ -80,7 +80,7 @@
 <td></td>
 <td></td>
 <td><img src='http://www.colorhexa.com/2079c1.png' height='24' width='39'></td>
-<td colspan='2'><code>constant</code></td>
+<td colspan='2'><code>Constant</code></td>
 <td><img src='http://www.colorhexa.com/7899c4.png' height='24' width='39'></td>
 <td></td>
 <td></td>
