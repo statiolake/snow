@@ -225,9 +225,9 @@ let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 ```
 
-If `termguicolors` is not set, terminal vim will fall back to an 256-color approximation of snow.
+If `termguicolors` is not set, terminal vim will attempt to fall back to a 256-color approximation of snow.
 
-> The fallback version of snow defines colors using numbers in the range 0-255 (as opposed to 6-character hex codes, whose range of 2<sup>24</sup> values is known as "true color"). The exact color referenced by each number varies by terminal. The closest thing to a standard 256-color \*nix palette is that used by [xterm](https://commons.wikimedia.org/wiki/File:Xterm_256color_chart.svg), the default X Windows terminal emulator.
+> The fallback version of snow defines colors using numbers in the range 0-255 (as opposed to 6-character hex codes, whose range of 2<sup>24</sup> values is known as "true color"). Terminal emulators with 256-color support will translate each number to a color. The exact color associated with each number varies by terminal emulator; the closest thing to a standard 256-color \*nix palette is that used by [xterm](https://commons.wikimedia.org/wiki/File:Xterm_256color_chart.svg), the default X Windows terminal emulator.
 
 ### cursor shape
 
