@@ -210,7 +210,7 @@ colorscheme snow
 
 ### colors
 
-Terminals/multiplexers with [true-color](https://gist.github.com/XVilka/8346728#now-supporting-truecolour) support can display the exact snow colors.
+Terminals/multiplexers with [true-color support](https://gist.github.com/XVilka/8346728#now-supporting-truecolour) can display the exact snow colors.
 
 In most cases, the only vimrc setting you need is:
 
