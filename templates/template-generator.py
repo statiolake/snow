@@ -87,9 +87,9 @@ def print_lightline(name,bg):
   print '  \ lightline#colorscheme#flatten(s:p)'
   print 'endauxfile'
 
-hue_red_ = 030.0
+hue_red_ = 037.5
 hue_gold = 082.5
-hue_gren = 135.0
+hue_gren = 127.5
 hue_cyan = 195.0
 hue_blue = 262.5
 hue_mgnt = 330.0
@@ -108,18 +108,18 @@ hexgry2_dk = tohex( gold(1.29) , gold(4.50) , hue_blue )
 hexgry3_dk = tohex( gold(0.74) , gold(4.50) , hue_blue )
 
 hexred__lt = tohex( lum_ltacnt , gold(1.38) , hue_red_ )
-hexgold_lt = tohex( lum_ltacnt , gold(1.44) , hue_gold )
-hexgren_lt = tohex( lum_ltacnt , gold(1.56) , hue_gren )
+hexgold_lt = tohex( lum_ltacnt , gold(1.50) , hue_gold )
+hexgren_lt = tohex( lum_ltacnt , gold(1.62) , hue_gren )
 hexcyan_lt = tohex( lum_ltacnt , gold(1.50) , hue_cyan )
-hexblue_lt = tohex( lum_ltacnt , gold(1.62) , hue_blue )
-hexmgnt_lt = tohex( lum_ltacnt , gold(1.50) , hue_mgnt )
+hexblue_lt = tohex( lum_ltacnt , gold(1.75) , hue_blue )
+hexmgnt_lt = tohex( lum_ltacnt , gold(1.62) , hue_mgnt )
 
 hexred__dk = tohex( lum_dkacnt , gold(2.75) , hue_red_ )
-hexgold_dk = tohex( lum_dkacnt , gold(2.88) , hue_gold )
-hexgren_dk = tohex( lum_dkacnt , gold(3.12) , hue_gren )
+hexgold_dk = tohex( lum_dkacnt , gold(3.00) , hue_gold )
+hexgren_dk = tohex( lum_dkacnt , gold(3.25) , hue_gren )
 hexblue_dk = tohex( lum_dkacnt , gold(3.00) , hue_blue )
-hexcyan_dk = tohex( lum_dkacnt , gold(3.25) , hue_cyan )
-hexmgnt_dk = tohex( lum_dkacnt , gold(3.00) , hue_mgnt )
+hexcyan_dk = tohex( lum_dkacnt , gold(3.50) , hue_cyan )
+hexmgnt_dk = tohex( lum_dkacnt , gold(3.25) , hue_mgnt )
 
 hexsrch_lt = tohex( gold(0.50) , gold(1.00) , hue_gold )
 
@@ -131,46 +131,46 @@ print 'Short name:      snow'
 print 'Terminal Colors: 256'
 print ''
 print 'Background: light'
-print 'Color:      gry0 %s 255' % hexgry0_lt
-print 'Color:      gry1 %s 254' % hexgry1_lt
-print 'Color:      gry2 %s 244' % hexgry2_lt
-print 'Color:      gry3 %s 059' % hexgry3_lt
-print 'Color:      gryc %s 237' % hexgry1_dk
-print 'Color:      srch %s 178' % hexsrch_lt
-print 'Color:      grys %s 237' % hexgry1_dk
-print 'Color:      sprd %s 197' % '#ff005f'
+print 'Color:      gry0 %s ~' % hexgry0_lt
+print 'Color:      gry1 %s ~' % hexgry1_lt
+print 'Color:      gry2 %s ~' % hexgry2_lt
+print 'Color:      gry3 %s ~' % hexgry3_lt
+print 'Color:      gryc %s ~' % hexgry1_dk
+print 'Color:      srch %s ~' % hexsrch_lt
+print 'Color:      grys %s ~' % hexgry1_dk
+print 'Color:      sprd %s 196' % '#ff0000'
 print 'Color:      spbl %s 033' % '#0087ff'
-print 'Color:      spcy %s 031' % '#0087af'
+print 'Color:      spcy %s 030' % '#008787'
 print 'Color:      spmg %s 164' % '#d700d7'
-print 'Color:      red_ %s 131' % hexred__lt
-print 'Color:      gold %s 094' % hexgold_lt
-print 'Color:      gren %s 028' % hexgren_lt
-print 'Color:      cyan %s 030' % hexcyan_lt
-print 'Color:      blue %s 032' % hexblue_lt
-print 'Color:      mgnt %s 133' % hexmgnt_lt
+print 'Color:      red_ %s ~' % hexred__lt
+print 'Color:      gold %s ~' % hexgold_lt
+print 'Color:      gren %s ~' % hexgren_lt
+print 'Color:      cyan %s ~' % hexcyan_lt
+print 'Color:      blue %s ~' % hexblue_lt
+print 'Color:      mgnt %s ~' % hexmgnt_lt
 print 'Include:    _common.colortemplate'
 print ''
 print_airline('snow','light')
 print_lightline('snow','light')
 print ''
 print 'Background: dark'
-print 'Color:      gry0 %s 236' % hexgry0_dk
-print 'Color:      gry1 %s 237' % hexgry1_dk
-print 'Color:      gry2 %s 244' % hexgry2_dk
-print 'Color:      gry3 %s 248' % hexgry3_dk
-print 'Color:      gryc %s 254' % hexgry1_lt
-print 'Color:      srch %s 137' % hexgold_dk
-print 'Color:      grys %s 236' % hexgry0_dk
-print 'Color:      sprd %s 197' % '#ff005f'
-print 'Color:      spbl %s 033' % '#0087ff'
-print 'Color:      spcy %s 031' % '#0087af'
-print 'Color:      spmg %s 164' % '#d700d7'
-print 'Color:      red_ %s 174' % hexred__dk
-print 'Color:      gold %s 137' % hexgold_dk
-print 'Color:      gren %s 108' % hexgren_dk
-print 'Color:      cyan %s 073' % hexcyan_dk
-print 'Color:      blue %s 110' % hexblue_dk
-print 'Color:      mgnt %s 139' % hexmgnt_dk
+print 'Color:      gry0 %s ~' % hexgry0_dk
+print 'Color:      gry1 %s ~' % hexgry1_dk
+print 'Color:      gry2 %s ~' % hexgry2_dk
+print 'Color:      gry3 %s ~' % hexgry3_dk
+print 'Color:      gryc %s ~' % hexgry1_lt
+print 'Color:      srch %s ~' % hexgold_dk
+print 'Color:      grys %s ~' % hexgry0_dk
+print 'Color:      sprd %s 203' % '#ff5f5f'
+print 'Color:      spbl %s 075' % '#5fafff'
+print 'Color:      spcy %s 037' % '#00afaf'
+print 'Color:      spmg %s 139' % '#d787d7'
+print 'Color:      red_ %s ~' % hexred__dk
+print 'Color:      gold %s ~' % hexgold_dk
+print 'Color:      gren %s ~' % hexgren_dk
+print 'Color:      cyan %s ~' % hexcyan_dk
+print 'Color:      blue %s ~' % hexblue_dk
+print 'Color:      mgnt %s ~' % hexmgnt_dk
 print 'Include:    _common.colortemplate'
 print ''
 print_airline('snow','dark')
