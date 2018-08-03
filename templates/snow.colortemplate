@@ -13,6 +13,7 @@ Color:      gry3 #525d6e ~
 Color:      gryc #303842 ~
 Color:      srch #e8bc4a ~
 Color:      grys #303842 ~
+Color:      gryp #a0adc0 ~
 Color:      sprd #ff0000 196
 Color:      spbl #0087ff 033
 Color:      spcy #008787 030
@@ -108,6 +109,7 @@ Color:      gry3 #a0adc0 ~
 Color:      gryc #dfe3ea ~
 Color:      srch #776333 ~
 Color:      grys #dfe3ea ~
+Color:      gryp #525d6e ~
 Color:      sprd #ff5f5f 203
 Color:      spbl #5fafff 075
 Color:      spcy #00afaf 037
