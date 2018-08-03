@@ -91,12 +91,12 @@ def print_lightline(name,bg):
   print '  \ lightline#colorscheme#flatten(s:p)'
   print 'endauxfile'
 
-hue_red_ = 037.5
+hue_red_ = 022.5
 hue_gold = 082.5
-hue_gren = 127.5
-hue_cyan = 195.0
+hue_gren = 142.5
+hue_cyan = 202.5
 hue_blue = 262.5
-hue_mgnt = 330.0
+hue_mgnt = 322.5
 
 lum_ltacnt = gold(1.50)
 lum_dkacnt = gold(1.00)
@@ -111,14 +111,14 @@ hexgry1_dk = tohex( gold(3.06) , gold(5.25) , hue_blue )
 hexgry2_dk = tohex( gold(1.29) , gold(4.50) , hue_blue )
 hexgry3_dk = tohex( gold(0.74) , gold(4.50) , hue_blue )
 
-hexred__lt = tohex( lum_ltacnt , gold(1.19) , hue_red_ )
+hexred__lt = tohex( lum_ltacnt , gold(1.25) , hue_red_ )
 hexgold_lt = tohex( lum_ltacnt , gold(1.31) , hue_gold )
 hexgren_lt = tohex( lum_ltacnt , gold(1.44) , hue_gren )
 hexcyan_lt = tohex( lum_ltacnt , gold(1.31) , hue_cyan )
 hexblue_lt = tohex( lum_ltacnt , gold(1.50) , hue_blue )
 hexmgnt_lt = tohex( lum_ltacnt , gold(1.44) , hue_mgnt )
 
-hexred__dk = tohex( lum_dkacnt , gold(2.38) , hue_red_ )
+hexred__dk = tohex( lum_dkacnt , gold(2.50) , hue_red_ )
 hexgold_dk = tohex( lum_dkacnt , gold(2.62) , hue_gold )
 hexgren_dk = tohex( lum_dkacnt , gold(2.88) , hue_gren )
 hexblue_dk = tohex( lum_dkacnt , gold(2.62) , hue_blue )
