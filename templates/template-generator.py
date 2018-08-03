@@ -122,6 +122,7 @@ hexcyan_dk = tohex( lum_dkacnt , gold(3.25) , hue_cyan )
 hexmgnt_dk = tohex( lum_dkacnt , gold(3.00) , hue_mgnt )
 
 hexsrch_lt = tohex( gold(0.50) , gold(1.00) , hue_gold )
+hexsrch_dk = tohex( gold(1.75) , gold(2.50) , hue_gold )
 
 print 'Author:          nightsense'
 print 'Maintainer:      nightsense'
@@ -159,8 +160,8 @@ print 'Color:      gry1 %s ~' % hexgry1_dk
 print 'Color:      gry2 %s ~' % hexgry2_dk
 print 'Color:      gry3 %s ~' % hexgry3_dk
 print 'Color:      gryc %s ~' % hexgry1_lt
-print 'Color:      srch %s ~' % hexgold_dk
-print 'Color:      grys %s ~' % hexgry0_dk
+print 'Color:      srch %s ~' % hexsrch_dk
+print 'Color:      grys %s ~' % hexgry1_lt
 print 'Color:      sprd %s 203' % '#ff5f5f'
 print 'Color:      spbl %s 075' % '#5fafff'
 print 'Color:      spcy %s 037' % '#00afaf'
