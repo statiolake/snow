@@ -247,4 +247,5 @@ let &t_EI = "\<Esc>[2 q"
 
 ###### released under the [MIT license](https://opensource.org/licenses/MIT)
 ###### generated with [Colortemplate](https://github.com/lifepillar/vim-colortemplate)
+###### meets the 4.5:1 W3C [contrast ratio] standard, except for comments and transient highlighting (which meet the ISO 3:1 standard)
 ###### snowflake macrophoto by [Olga & Alexey (CC BY-NC 2.0)](https://www.flickr.com/photos/chaoticmind75/39326731084/)
