@@ -331,8 +331,8 @@ print 'Color:      gry1 %s ~' % hexgry1_dk
 print 'Color:      gry2 %s ~' % hexgry2_dk
 print 'Color:      gry3 %s ~' % hexgry3_dk
 print 'Color:      gryc %s ~' % hexgry1_lt
-print 'Color:      srch %s ~' % hexsrch_dk
-print 'Color:      grys %s ~' % hexgry1_lt
+print 'Color:      srch %s ~' % hexgold_dk
+print 'Color:      grys %s ~' % hexgry0_dk
 print 'Color:      gryp %s ~' % hexgry3_lt
 print 'Color:      sprd %s ~' % '#ff5f5f'
 print 'Color:      spbl %s ~' % '#5fafff'
