@@ -243,6 +243,40 @@ let &t_EI = "\<Esc>[2 q"
 
 ...which sets the cursor to a vertical line for insert mode, underline for replace mode, and block for normal mode.
 
+## shell
+
+### colors
+
+Many terminal emulators can be themed by sourcing the color-setting shell scripts included with snow. The path to these scripts will depend on your plugin management method.
+
+For instance, if you use vim-plug and want to apply the dark snow theme to your bash or zsh shell, add the following to `~/.bashrc` or `~/.zshrc`:
+
+```
+[ -n "$PS1" ] && sh ~/.vim/plugged/snow/shell/snow_dark.sh
+```
+
+Or for the fish shell, add to `~/.config/fish/config.fish`:
+
+```
+if status --is-interactive
+  sh ~/.vim/plugged/snow/shell/snow_dark.sh
+end
+```
+
+If you use vundle, replace `plugged` in the above paths with `bundle`.
+
+Replace `dark` with `light` for the light theme.
+
+### fish syntax
+
+Again, the script path will depend on your plugin management method.
+
+For the dark theme in a vim-plug setup, add to `~/.config/fish/config.fish`:
+
+```
+source ~/.vim/plugged/snow/shell/snow_dark.fish
+```
+
 ---
 
 ###### ⫴ provided under the [MIT license](https://opensource.org/licenses/MIT)
