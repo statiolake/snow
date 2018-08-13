@@ -120,22 +120,22 @@ def print_shell(name,bg):
   print 'if [ -n "$TMUX" ]; then'
   print "  # Tell tmux to pass the escape sequences through"
   print "  # (Source: http://permalink.gmane.org/gmane.comp.terminal-emulators.tmux.user/1324)"
-  print "  put_template() { printf '\033Ptmux;\033\033]4;%d;rgb:%s\033\033\\\033\\' $@; }"
-  print "  put_template_var() { printf '\033Ptmux;\033\033]%d;rgb:%s\033\033\\\033\\' $@; }"
-  print "  put_template_custom() { printf '\033Ptmux;\033\033]%s%s\033\033\\\033\\' $@; }"
+  print "  put_template() { printf '\\033Ptmux;\\033\\033]4;%d;rgb:%s\\033\\033\\\\\\033\\\\' $@; }"
+  print "  put_template_var() { printf '\\033Ptmux;\\033\\033]%d;rgb:%s\\033\\033\\\\\\033\\\\' $@; }"
+  print "  put_template_custom() { printf '\\033Ptmux;\\033\\033]%s%s\\033\\033\\\\\\033\\\\' $@; }"
   print 'elif [ "${TERM%%[-.]*}" = "screen" ]; then'
   print "  # GNU screen (screen, screen-256color, screen-256color-bce)"
-  print "  put_template() { printf '\033P\033]4;%d;rgb:%s\007\033\\' $@; }"
-  print "  put_template_var() { printf '\033P\033]%d;rgb:%s\007\033\\' $@; }"
-  print "  put_template_custom() { printf '\033P\033]%s%s\007\033\\' $@; }"
+  print "  put_template() { printf '\\033P\\033]4;%d;rgb:%s\\007\\033\\\\' $@; }"
+  print "  put_template_var() { printf '\\033P\\033]%d;rgb:%s\\007\\033\\\\' $@; }"
+  print "  put_template_custom() { printf '\\033P\\033]%s%s\\007\\033\\\\' $@; }"
   print 'elif [ "${TERM%%-*}" = "linux" ]; then'
-  print '  put_template() { [ $1 -lt 16 ] && printf "\e]P%x%s" $1 $(echo $2 | sed "s/\///g"); }'
+  print '  put_template() { [ $1 -lt 16 ] && printf "\\e]P%x%s" $1 $(echo $2 | sed "s/\\///g"); }'
   print "  put_template_var() { true; }"
   print "  put_template_custom() { true; }"
   print "else"
-  print "  put_template() { printf '\033]4;%d;rgb:%s\033\\' $@; }"
-  print "  put_template_var() { printf '\033]%d;rgb:%s\033\\' $@; }"
-  print "  put_template_custom() { printf '\033]%s%s\033\\' $@; }"
+  print "  put_template() { printf '\\033]4;%d;rgb:%s\\033\\\\' $@; }"
+  print "  put_template_var() { printf '\\033]%d;rgb:%s\\033\\\\' $@; }"
+  print "  put_template_custom() { printf '\\033]%s%s\\033\\\\' $@; }"
   print "fi"
   print ''
   print '# 16 color space'
@@ -252,15 +252,15 @@ def print_fish(name,bg):
   print'set fish_pager_color_prefix      @guimgnt'
   print 'endauxfile'
 
-hue_red_ = 022.5
-hue_gold = 082.5
-hue_gren = 142.5
-hue_cyan = 202.5
-hue_blue = 262.5
-hue_mgnt = 322.5
+hue_red_ = 030.0
+hue_gold = 090.0
+hue_gren = 150.0
+hue_cyan = 210.0
+hue_blue = 270.0
+hue_mgnt = 330.0
 
-cro_ltacnt = phic(1.00)
-cro_dkacnt = phic(2.00)
+cro_ltacnt = phic(1.0)
+cro_dkacnt = phic(2.0)
 
 hexgry0_lt = tohex( phic(0.09) , phic(8.62) , hue_blue )
 hexgry1_lt = tohex( phic(0.22) , phic(6.44) , hue_blue )
@@ -273,21 +273,31 @@ hexgry2_dk = tohex( phic(1.29) , phic(4.25) , hue_blue )
 hexgry3_dk = tohex( phic(0.74) , phic(4.25) , hue_blue )
 
 hexred__lt = tohex( phic(1.55) , cro_ltacnt , hue_red_ )
-hexgold_lt = tohex( phic(1.56) , cro_ltacnt , hue_gold )
-hexgren_lt = tohex( phic(1.59) , cro_ltacnt , hue_gren )
-hexcyan_lt = tohex( phic(1.78) , cro_ltacnt , hue_cyan )
-hexblue_lt = tohex( phic(1.72) , cro_ltacnt , hue_blue )
-hexmgnt_lt = tohex( phic(1.59) , cro_ltacnt , hue_mgnt )
+hexgold_lt = tohex( phic(1.57) , cro_ltacnt , hue_gold )
+hexgren_lt = tohex( phic(1.61) , cro_ltacnt , hue_gren )
+hexcyan_lt = tohex( phic(1.79) , cro_ltacnt , hue_cyan )
+hexblue_lt = tohex( phic(1.66) , cro_ltacnt , hue_blue )
+hexmgnt_lt = tohex( phic(1.57) , cro_ltacnt , hue_mgnt )
 
 hexred__dk = tohex( phic(1.00) , cro_dkacnt , hue_red_ )
 hexgold_dk = tohex( phic(1.00) , cro_dkacnt , hue_gold )
-hexgren_dk = tohex( phic(1.01) , cro_dkacnt , hue_gren )
-hexcyan_dk = tohex( phic(1.03) , cro_dkacnt , hue_cyan )
-hexblue_dk = tohex( phic(1.03) , cro_dkacnt , hue_blue )
-hexmgnt_dk = tohex( phic(1.01) , cro_dkacnt , hue_mgnt )
+hexgren_dk = tohex( phic(1.00) , cro_dkacnt , hue_gren )
+hexcyan_dk = tohex( phic(1.00) , cro_dkacnt , hue_cyan )
+hexblue_dk = tohex( phic(1.00) , cro_dkacnt , hue_blue )
+hexmgnt_dk = tohex( phic(1.00) , cro_dkacnt , hue_mgnt )
 
-hexsrch_lt = tohex( phic(0.50) , phic(1.00) , hue_gold )
-hexsrch_dk = tohex( phic(1.50) , phic(2.50) , hue_gold )
+hexsrch_lt = tohex( phic(0.25) , phic(0.25) , hue_gold )
+hexsrch_dk = tohex( phic(1.50) , phic(1.50) , hue_gold )
+
+hexsprd_lt = tohex( phic(1.50) , phic(0.00) , hue_red_ )
+hexspbl_lt = tohex( phic(1.50) , phic(0.00) , hue_blue )
+hexspcy_lt = tohex( phic(1.50) , phic(0.00) , hue_cyan )
+hexspmg_lt = tohex( phic(1.50) , phic(0.00) , hue_mgnt )
+
+hexsprd_dk = tohex( phic(1.00) , phic(1.00) , hue_red_ )
+hexspbl_dk = tohex( phic(1.00) , phic(1.00) , hue_blue )
+hexspcy_dk = tohex( phic(1.00) , phic(1.00) , hue_cyan )
+hexspmg_dk = tohex( phic(1.00) , phic(1.00) , hue_mgnt )
 
 print 'Author:          nightsense'
 print 'Maintainer:      nightsense'
@@ -305,10 +315,10 @@ print 'Color:      gryc %s ~' % hexgry1_dk
 print 'Color:      srch %s ~' % hexsrch_lt
 print 'Color:      grys %s ~' % hexgry1_dk
 print 'Color:      gryp %s ~' % hexgry3_dk
-print 'Color:      sprd %s ~' % '#ff0000'
-print 'Color:      spbl %s ~' % '#0087ff'
-print 'Color:      spcy %s ~' % '#008787'
-print 'Color:      spmg %s ~' % '#d700d7'
+print 'Color:      sprd %s ~' % hexsprd_lt
+print 'Color:      spbl %s ~' % hexspbl_lt
+print 'Color:      spcy %s ~' % hexspcy_lt
+print 'Color:      spmg %s ~' % hexspmg_lt
 print 'Color:      red_ %s ~' % hexred__lt
 print 'Color:      gold %s ~' % hexgold_lt
 print 'Color:      gren %s ~' % hexgren_lt
@@ -331,13 +341,13 @@ print 'Color:      gry1 %s ~' % hexgry1_dk
 print 'Color:      gry2 %s ~' % hexgry2_dk
 print 'Color:      gry3 %s ~' % hexgry3_dk
 print 'Color:      gryc %s ~' % hexgry1_lt
-print 'Color:      srch %s ~' % hexgold_dk
-print 'Color:      grys %s ~' % hexgry0_dk
+print 'Color:      srch %s ~' % hexsrch_dk
+print 'Color:      grys %s ~' % hexgry1_lt
 print 'Color:      gryp %s ~' % hexgry3_lt
-print 'Color:      sprd %s ~' % '#ff5f5f'
-print 'Color:      spbl %s ~' % '#5fafff'
-print 'Color:      spcy %s ~' % '#00afaf'
-print 'Color:      spmg %s ~' % '#d787d7'
+print 'Color:      sprd %s ~' % hexsprd_dk
+print 'Color:      spbl %s ~' % hexspbl_dk
+print 'Color:      spcy %s ~' % hexspcy_dk
+print 'Color:      spmg %s ~' % hexspmg_dk
 print 'Color:      red_ %s ~' % hexred__dk
 print 'Color:      gold %s ~' % hexgold_dk
 print 'Color:      gren %s ~' % hexgren_dk

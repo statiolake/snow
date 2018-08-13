@@ -3,44 +3,44 @@
 # Base16 Shell template by Chris Kempson (http://chriskempson.com)
 # snow_light scheme by nightsense (https://github.com/nightsense/snow)
 
-color00="f1/f3/f6" # Base 00 - Black
-color01="c8/3a/4d" # Base 08 - Red
-color02="00/81/27" # Base 0B - Green
-color03="8d/6a/00" # Base 0A - Yellow
-color04="00/6f/ce" # Base 0D - Blue
-color05="a4/49/af" # Base 0E - Magenta
-color06="00/7a/8a" # Base 0C - Cyan
-color07="50/5d/70" # Base 05 - White
-color08="de/e3/eb" # Base 03 - Bright Black
+color00="f2/f3/f6" # Base 00 - Black
+color01="c5/40/40" # Base 08 - Red
+color02="00/81/34" # Base 0B - Green
+color03="81/6e/00" # Base 0A - Yellow
+color04="00/6e/d3" # Base 0D - Blue
+color05="b0/43/a5" # Base 0E - Magenta
+color06="00/79/96" # Base 0C - Cyan
+color07="53/5c/71" # Base 05 - White
+color08="df/e2/eb" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="30/38/45" # Base 07 - Bright White
-color_foreground="50/5d/70" # Base 05
-color_background="f1/f3/f6" # Base 00
+color15="32/38/45" # Base 07 - Bright White
+color_foreground="53/5c/71" # Base 05
+color_background="f2/f3/f6" # Base 00
 
 if [ -n "$TMUX" ]; then
   # Tell tmux to pass the escape sequences through
   # (Source: http://permalink.gmane.org/gmane.comp.terminal-emulators.tmux.user/1324)
-  put_template() { printf 'Ptmux;]4;%d;rgb:%s\\' $@; }
-  put_template_var() { printf 'Ptmux;]%d;rgb:%s\\' $@; }
-  put_template_custom() { printf 'Ptmux;]%s%s\\' $@; }
+  put_template() { printf '\033Ptmux;\033\033]4;%d;rgb:%s\033\033\\\033\\' $@; }
+  put_template_var() { printf '\033Ptmux;\033\033]%d;rgb:%s\033\033\\\033\\' $@; }
+  put_template_custom() { printf '\033Ptmux;\033\033]%s%s\033\033\\\033\\' $@; }
 elif [ "${TERM%%[-.]*}" = "screen" ]; then
   # GNU screen (screen, screen-256color, screen-256color-bce)
-  put_template() { printf 'P]4;%d;rgb:%s\' $@; }
-  put_template_var() { printf 'P]%d;rgb:%s\' $@; }
-  put_template_custom() { printf 'P]%s%s\' $@; }
+  put_template() { printf '\033P\033]4;%d;rgb:%s\007\033\\' $@; }
+  put_template_var() { printf '\033P\033]%d;rgb:%s\007\033\\' $@; }
+  put_template_custom() { printf '\033P\033]%s%s\007\033\\' $@; }
 elif [ "${TERM%%-*}" = "linux" ]; then
   put_template() { [ $1 -lt 16 ] && printf "\e]P%x%s" $1 $(echo $2 | sed "s/\///g"); }
   put_template_var() { true; }
   put_template_custom() { true; }
 else
-  put_template() { printf ']4;%d;rgb:%s\' $@; }
-  put_template_var() { printf ']%d;rgb:%s\' $@; }
-  put_template_custom() { printf ']%s%s\' $@; }
+  put_template() { printf '\033]4;%d;rgb:%s\033\\' $@; }
+  put_template_var() { printf '\033]%d;rgb:%s\033\\' $@; }
+  put_template_custom() { printf '\033]%s%s\033\\' $@; }
 fi
 
 # 16 color space
@@ -64,13 +64,13 @@ put_template 15 $color15
 # foreground / background / cursor color
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
-  put_template_custom Pg #505d70 # foreground
-  put_template_custom Ph #f1f3f6 # background
-  put_template_custom Pi #505d70 # bold color
-  put_template_custom Pj #006fce # selection color
-  put_template_custom Pk #f1f3f6 # selected text color
-  put_template_custom Pl #505d70 # cursor
-  put_template_custom Pm #f1f3f6 # cursor text
+  put_template_custom Pg #535c71 # foreground
+  put_template_custom Ph #f2f3f6 # background
+  put_template_custom Pi #535c71 # bold color
+  put_template_custom Pj #006ed3 # selection color
+  put_template_custom Pk #f2f3f6 # selected text color
+  put_template_custom Pl #535c71 # cursor
+  put_template_custom Pm #f2f3f6 # cursor text
 else
   put_template_var 10 $color_foreground
   if [ "$BASE16_SHELL_SET_BACKGROUND" != false ]; then

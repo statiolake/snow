@@ -6,24 +6,24 @@ Short name:      snow
 Terminal Colors: 256
 
 Background: light
-Color:      gry0 #f1f3f6 ~
-Color:      gry1 #dee3eb ~
-Color:      gry2 #748296 ~
-Color:      gry3 #505d70 ~
-Color:      gryc #303845 ~
-Color:      srch #e8bc4a ~
-Color:      grys #303845 ~
-Color:      gryp #9fadc2 ~
-Color:      sprd #ff0000 ~
-Color:      spbl #0087ff ~
-Color:      spcy #008787 ~
-Color:      spmg #d700d7 ~
-Color:      red_ #c83a4d ~
-Color:      gold #8d6a00 ~
-Color:      gren #008127 ~
-Color:      cyan #007a8a ~
-Color:      blue #006fce ~
-Color:      mgnt #a449af ~
+Color:      gry0 #f2f3f6 ~
+Color:      gry1 #dfe2eb ~
+Color:      gry2 #778197 ~
+Color:      gry3 #535c71 ~
+Color:      gryc #323845 ~
+Color:      srch #fedc00 ~
+Color:      grys #323845 ~
+Color:      gryp #a2acc3 ~
+Color:      sprd #f20028 ~
+Color:      spbl #007cff ~
+Color:      spcy #0093c7 ~
+Color:      spmg #d800cb ~
+Color:      red_ #c54040 ~
+Color:      gold #816e00 ~
+Color:      gren #008134 ~
+Color:      cyan #007996 ~
+Color:      blue #006ed3 ~
+Color:      mgnt #b043a5 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim
@@ -134,22 +134,22 @@ color_background="@guigry0" # Base 00
 if [ -n "$TMUX" ]; then
   # Tell tmux to pass the escape sequences through
   # (Source: http://permalink.gmane.org/gmane.comp.terminal-emulators.tmux.user/1324)
-  put_template() { printf 'Ptmux;]4;%d;rgb:%s\\' $@; }
-  put_template_var() { printf 'Ptmux;]%d;rgb:%s\\' $@; }
-  put_template_custom() { printf 'Ptmux;]%s%s\\' $@; }
+  put_template() { printf '\033Ptmux;\033\033]4;%d;rgb:%s\033\033\\\033\\' $@; }
+  put_template_var() { printf '\033Ptmux;\033\033]%d;rgb:%s\033\033\\\033\\' $@; }
+  put_template_custom() { printf '\033Ptmux;\033\033]%s%s\033\033\\\033\\' $@; }
 elif [ "${TERM%%[-.]*}" = "screen" ]; then
   # GNU screen (screen, screen-256color, screen-256color-bce)
-  put_template() { printf 'P]4;%d;rgb:%s\' $@; }
-  put_template_var() { printf 'P]%d;rgb:%s\' $@; }
-  put_template_custom() { printf 'P]%s%s\' $@; }
+  put_template() { printf '\033P\033]4;%d;rgb:%s\007\033\\' $@; }
+  put_template_var() { printf '\033P\033]%d;rgb:%s\007\033\\' $@; }
+  put_template_custom() { printf '\033P\033]%s%s\007\033\\' $@; }
 elif [ "${TERM%%-*}" = "linux" ]; then
   put_template() { [ $1 -lt 16 ] && printf "\e]P%x%s" $1 $(echo $2 | sed "s/\///g"); }
   put_template_var() { true; }
   put_template_custom() { true; }
 else
-  put_template() { printf ']4;%d;rgb:%s\' $@; }
-  put_template_var() { printf ']%d;rgb:%s\' $@; }
-  put_template_custom() { printf ']%s%s\' $@; }
+  put_template() { printf '\033]4;%d;rgb:%s\033\\' $@; }
+  put_template_var() { printf '\033]%d;rgb:%s\033\\' $@; }
+  put_template_custom() { printf '\033]%s%s\033\\' $@; }
 fi
 
 # 16 color space
@@ -266,24 +266,24 @@ set fish_pager_color_prefix      @guimgnt
 endauxfile
 
 Background: dark
-Color:      gry0 #282e36 ~
-Color:      gry1 #303845 ~
-Color:      gry2 #748296 ~
-Color:      gry3 #9fadc2 ~
-Color:      gryc #dee3eb ~
-Color:      srch #ad9151 ~
-Color:      grys #282e36 ~
-Color:      gryp #505d70 ~
-Color:      sprd #ff5f5f ~
-Color:      spbl #5fafff ~
-Color:      spcy #00afaf ~
-Color:      spmg #d787d7 ~
-Color:      red_ #d47b7d ~
-Color:      gold #ad9151 ~
-Color:      gren #64a369 ~
-Color:      cyan #00a4ac ~
-Color:      blue #6198d6 ~
-Color:      mgnt #ba81bf ~
+Color:      gry0 #2a2d36 ~
+Color:      gry1 #323845 ~
+Color:      gry2 #778197 ~
+Color:      gry3 #a2acc3 ~
+Color:      gryc #dfe2eb ~
+Color:      srch #847217 ~
+Color:      grys #dfe2eb ~
+Color:      gryp #535c71 ~
+Color:      sprd #f16862 ~
+Color:      spbl #3b99ff ~
+Color:      spcy #00aecb ~
+Color:      spmg #db6cce ~
+Color:      red_ #d27d75 ~
+Color:      gold #a69450 ~
+Color:      gren #5aa572 ~
+Color:      cyan #00a6b6 ~
+Color:      blue #7197d9 ~
+Color:      mgnt #c27fb8 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
@@ -394,22 +394,22 @@ color_background="@guigry0" # Base 00
 if [ -n "$TMUX" ]; then
   # Tell tmux to pass the escape sequences through
   # (Source: http://permalink.gmane.org/gmane.comp.terminal-emulators.tmux.user/1324)
-  put_template() { printf 'Ptmux;]4;%d;rgb:%s\\' $@; }
-  put_template_var() { printf 'Ptmux;]%d;rgb:%s\\' $@; }
-  put_template_custom() { printf 'Ptmux;]%s%s\\' $@; }
+  put_template() { printf '\033Ptmux;\033\033]4;%d;rgb:%s\033\033\\\033\\' $@; }
+  put_template_var() { printf '\033Ptmux;\033\033]%d;rgb:%s\033\033\\\033\\' $@; }
+  put_template_custom() { printf '\033Ptmux;\033\033]%s%s\033\033\\\033\\' $@; }
 elif [ "${TERM%%[-.]*}" = "screen" ]; then
   # GNU screen (screen, screen-256color, screen-256color-bce)
-  put_template() { printf 'P]4;%d;rgb:%s\' $@; }
-  put_template_var() { printf 'P]%d;rgb:%s\' $@; }
-  put_template_custom() { printf 'P]%s%s\' $@; }
+  put_template() { printf '\033P\033]4;%d;rgb:%s\007\033\\' $@; }
+  put_template_var() { printf '\033P\033]%d;rgb:%s\007\033\\' $@; }
+  put_template_custom() { printf '\033P\033]%s%s\007\033\\' $@; }
 elif [ "${TERM%%-*}" = "linux" ]; then
   put_template() { [ $1 -lt 16 ] && printf "\e]P%x%s" $1 $(echo $2 | sed "s/\///g"); }
   put_template_var() { true; }
   put_template_custom() { true; }
 else
-  put_template() { printf ']4;%d;rgb:%s\' $@; }
-  put_template_var() { printf ']%d;rgb:%s\' $@; }
-  put_template_custom() { printf ']%s%s\' $@; }
+  put_template() { printf '\033]4;%d;rgb:%s\033\\' $@; }
+  put_template_var() { printf '\033]%d;rgb:%s\033\\' $@; }
+  put_template_custom() { printf '\033]%s%s\033\\' $@; }
 fi
 
 # 16 color space
