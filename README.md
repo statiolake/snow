@@ -121,8 +121,8 @@
 
 <br>
 
-<h6>primary colors (of the standard additive model) are assigned to "regular" elements</h6>
-<h6>secondary colors (magenta, yellow, cyan) are assigned to meta/special elements</h6>
+thus primary colors (of the standard additive model) are assigned to "regular" elements,<br>
+while secondary colors (magenta, yellow, cyan) are assigned to meta/special elements
 </td>
 </tr>
 
