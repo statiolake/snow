@@ -119,14 +119,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/0072de.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
 
-</td>
-</tr>
-<tr></tr>
+<br>
 
-<tr>
-<td colspan='8'>
-primary colors (of the standard additive model) are assigned to "regular" elements<br>
-secondary colors (magenta, yellow, cyan) are assigned to meta/special elements
+<h5>primary colors (of the standard additive model) are assigned to "regular" elements</h5>
+<h5>secondary colors (magenta, yellow, cyan) are assigned to meta/special elements</h5>
 </td>
 </tr>
 
