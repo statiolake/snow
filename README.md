@@ -121,7 +121,7 @@
 
 <br>
 
-the primary (additive model) colors (red, green, blue) are assigned to "regular" elements, while<br>
+the primary (additive model) colors (red, green, blue) are thus assigned to "regular" elements, while<br>
 the secondary colors (magenta, yellow, cyan) are assigned to "elevated" (meta/special) elements
 </td>
 </tr>
