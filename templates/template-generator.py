@@ -252,52 +252,57 @@ def print_fish(name,bg):
   print'set fish_pager_color_prefix      @guimgnt'
   print 'endauxfile'
 
-hue_red_ = 030.0
-hue_gold = 090.0
-hue_gren = 150.0
-hue_cyan = 210.0
-hue_blue = 270.0
-hue_mgnt = 330.0
+hue_red_ = 022.5
+hue_gold = 082.5
+hue_gren = 142.5
+hue_cyan = 202.5
+hue_blue = 262.5
+hue_mgnt = 322.5
 
-cro_ltacnt = phic(1.0)
-cro_dkacnt = phic(2.0)
+cro_ltacnt = phic(0.75)
+cro_dkacnt = phic(1.50)
 
-hexgry0_lt = tohex( phic(0.09) , phic(8.62) , hue_blue )
-hexgry1_lt = tohex( phic(0.22) , phic(6.44) , hue_blue )
-hexgry2_lt = tohex( phic(1.29) , phic(4.25) , hue_blue )
-hexgry3_lt = tohex( phic(1.96) , phic(4.25) , hue_blue )
+hexgry0_lt = tohex( phic(0.03) , phic(8.00) , hue_blue )
+hexgry1_lt = tohex( phic(0.18) , phic(6.00) , hue_blue )
+hexgry2_lt = tohex( phic(1.50) , phic(4.00) , hue_blue )
+hexgry3_lt = tohex( phic(2.20) , phic(4.00) , hue_blue )
 
-hexgry0_dk = tohex( phic(3.50) , phic(5.75) , hue_blue )
-hexgry1_dk = tohex( phic(3.03) , phic(5.00) , hue_blue )
-hexgry2_dk = tohex( phic(1.29) , phic(4.25) , hue_blue )
-hexgry3_dk = tohex( phic(0.74) , phic(4.25) , hue_blue )
+hexgry0_dk = tohex( phic(3.36) , phic(5.00) , hue_blue )
+hexgry1_dk = tohex( phic(2.88) , phic(4.50) , hue_blue )
+hexgry2_dk = tohex( phic(1.00) , phic(4.00) , hue_blue )
+hexgry3_dk = tohex( phic(0.49) , phic(4.00) , hue_blue )
 
-hexred__lt = tohex( phic(1.55) , cro_ltacnt , hue_red_ )
-hexgold_lt = tohex( phic(1.57) , cro_ltacnt , hue_gold )
-hexgren_lt = tohex( phic(1.61) , cro_ltacnt , hue_gren )
-hexcyan_lt = tohex( phic(1.79) , cro_ltacnt , hue_cyan )
-hexblue_lt = tohex( phic(1.66) , cro_ltacnt , hue_blue )
-hexmgnt_lt = tohex( phic(1.57) , cro_ltacnt , hue_mgnt )
+hexred__lt = tohex( phic(1.45) , cro_ltacnt , hue_red_ )
+hexgold_lt = tohex( phic(1.48) , cro_ltacnt , hue_gold )
+hexgren_lt = tohex( phic(1.52) , cro_ltacnt , hue_gren )
+hexcyan_lt = tohex( phic(1.72) , cro_ltacnt , hue_cyan )
+hexblue_lt = tohex( phic(1.69) , cro_ltacnt , hue_blue )
+hexmgnt_lt = tohex( phic(1.50) , cro_ltacnt , hue_mgnt )
 
-hexred__dk = tohex( phic(1.00) , cro_dkacnt , hue_red_ )
-hexgold_dk = tohex( phic(1.00) , cro_dkacnt , hue_gold )
-hexgren_dk = tohex( phic(1.00) , cro_dkacnt , hue_gren )
-hexcyan_dk = tohex( phic(1.00) , cro_dkacnt , hue_cyan )
+hexred__dk = tohex( phic(0.96) , cro_dkacnt , hue_red_ )
+hexgold_dk = tohex( phic(0.96) , cro_dkacnt , hue_gold )
+hexgren_dk = tohex( phic(0.97) , cro_dkacnt , hue_gren )
+hexcyan_dk = tohex( phic(1.03) , cro_dkacnt , hue_cyan )
 hexblue_dk = tohex( phic(1.00) , cro_dkacnt , hue_blue )
-hexmgnt_dk = tohex( phic(1.00) , cro_dkacnt , hue_mgnt )
+hexmgnt_dk = tohex( phic(0.96) , cro_dkacnt , hue_mgnt )
 
-hexsrch_lt = tohex( phic(0.25) , phic(0.25) , hue_gold )
+hexsrch_lt = tohex( phic(0.38) , phic(0.38) , hue_gold )
 hexsrch_dk = tohex( phic(1.50) , phic(1.50) , hue_gold )
 
-hexsprd_lt = tohex( phic(1.50) , phic(0.00) , hue_red_ )
-hexspbl_lt = tohex( phic(1.50) , phic(0.00) , hue_blue )
-hexspcy_lt = tohex( phic(1.50) , phic(0.00) , hue_cyan )
-hexspmg_lt = tohex( phic(1.50) , phic(0.00) , hue_mgnt )
+lum_ltspel = phic(1.50)
+cro_ltspel = phic(0.00)
+lum_dkspel = phic(0.75)
+cro_dkspel = phic(0.75)
 
-hexsprd_dk = tohex( phic(1.00) , phic(1.00) , hue_red_ )
-hexspbl_dk = tohex( phic(1.00) , phic(1.00) , hue_blue )
-hexspcy_dk = tohex( phic(1.00) , phic(1.00) , hue_cyan )
-hexspmg_dk = tohex( phic(1.00) , phic(1.00) , hue_mgnt )
+hexsprd_lt = tohex( lum_ltspel , cro_ltspel , hue_red_ )
+hexspbl_lt = tohex( lum_ltspel , cro_ltspel , hue_blue )
+hexspcy_lt = tohex( lum_ltspel , cro_ltspel , hue_cyan )
+hexspmg_lt = tohex( lum_ltspel , cro_ltspel , hue_mgnt )
+
+hexsprd_dk = tohex( lum_dkspel , cro_dkspel , hue_red_ )
+hexspbl_dk = tohex( lum_dkspel , cro_dkspel , hue_blue )
+hexspcy_dk = tohex( lum_dkspel , cro_dkspel , hue_cyan )
+hexspmg_dk = tohex( lum_dkspel , cro_dkspel , hue_mgnt )
 
 print 'Author:          nightsense'
 print 'Maintainer:      nightsense'

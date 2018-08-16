@@ -62,26 +62,25 @@ SpellCap           none   none   g=undercurl   s=spbl   t=underline
 SpellLocal         none   none   g=undercurl   s=spcy   t=underline
 SpellRare          none   none   g=undercurl   s=spmg   t=underline
 
-# magenta names
-Function           mgnt   none
-Identifier         mgnt   none
+# magenta types
+StorageClass       mgnt   none
+Structure          mgnt   none
+Type               mgnt   none
+Typedef            mgnt   none
 
 # reverse magenta warnings
 TooLong            mgnt   gry0   reverse
 WarningMsg         mgnt   gry0   reverse
 
-# red types
-StorageClass       red_   none
-Structure          red_   none
-Type               red_   none
-Typedef            red_   none
+# red names
+Function           red_   none
+Identifier         red_   none
 
 # reverse red errors and diff removals
 DiffDelete         red_   gry0   reverse
 DiffRemoved        red_   gry0   reverse
 Error              red_   gry0   reverse
 ErrorMsg           red_   gry0   reverse
-
 # gold specials
 Debug              gold   none
 Delimiter          gold   none
