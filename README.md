@@ -28,61 +28,61 @@
 
 <tr>
 <td width='202'><code>Normal bg</code></td>
-<td><img src='http://www.colorhexa.com/f2f3f6.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/b043a5.png' height='24' width='39'></td>
-<td colspan='2'><code>Identifier</code></td>
-<td><img src='http://www.colorhexa.com/c27fb8.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/2a2d36.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/f9fbff.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b047bd.png' height='24' width='39'></td>
+<td width='202' colspan='2'><code>Type</code></td>
+<td><img src='http://www.colorhexa.com/c87ece.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/28313d.png' height='24' width='39'></td>
 <td width='202'><code>Normal bg</code></td>
 </tr>
 <tr></tr>
 <tr>
 <td><code>ColorColumn</code></td>
-<td><img src='http://www.colorhexa.com/dfe2eb.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/c54040.png' height='24' width='39'></td>
-<td width='202' colspan='2'><code>Type</code></td>
-<td><img src='http://www.colorhexa.com/d27d75.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/323845.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/e2e8f2.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/d8334e.png' height='24' width='39'></td>
+<td colspan='2'><code>Identifier</code></td>
+<td><img src='http://www.colorhexa.com/e6757a.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/313d4c.png' height='24' width='39'></td>
 <td><code>ColorColumn</code></td>
 </tr>
 <tr></tr>
 <tr>
 <td><code>MatchParen</code></td>
-<td><img src='http://www.colorhexa.com/a2acc3.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/816e00.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b5c5de.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/946e00.png' height='24' width='39'></td>
 <td colspan='2'><code>Special</code></td>
-<td><img src='http://www.colorhexa.com/a69450.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/535c71.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b5933f.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/445368.png' height='24' width='39'></td>
 <td><code>MatchParen</code></td>
 </tr>
 <tr></tr>
 <tr>
 <td><code>Comment</code></td>
-<td><img src='http://www.colorhexa.com/778197.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/008134.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/65758c.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/00871e.png' height='24' width='39'></td>
 <td colspan='2'><code>Statement</code></td>
-<td><img src='http://www.colorhexa.com/5aa572.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/778197.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/55a960.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/8797af.png' height='24' width='39'></td>
 <td><code>Comment</code></td>
 </tr>
 <tr></tr>
 <tr>
 <td><code>Normal fg</code></td>
-<td><img src='http://www.colorhexa.com/535c71.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/007996.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/445368.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/008092.png' height='24' width='39'></td>
 <td colspan='2'><code>PreProc</code></td>
-<td><img src='http://www.colorhexa.com/00a6b6.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/a2acc3.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/00a8b2.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b5c5de.png' height='24' width='39'></td>
 <td><code>Normal fg</code></td>
 </tr>
 <tr></tr>
 <tr>
 <td><code>Cursor</code></td>
-<td><img src='http://www.colorhexa.com/323845.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/006ed3.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/313d4c.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/0072de.png' height='24' width='39'></td>
 <td colspan='2'><code>Constant</code></td>
-<td><img src='http://www.colorhexa.com/7197d9.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/dfe2eb.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/499ceb.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/e2e8f2.png' height='24' width='39'></td>
 <td><code>Cursor</code></td>
 </tr>
 <tr></tr>
@@ -93,29 +93,32 @@
 
 *because <img height="16" src='https://github.com/nightsense/snow/raw/master/images/red.png' /> red is the color of life, reddish text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/b043a5.png" height='12' width='12'> **names**, which give life <img height="9" src='https://github.com/nightsense/snow/raw/master/images/name.png' /> to abstractions (like variables and functions)
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/d8334e.png" height='12' width='12'> **names**, which give life <img height="9" src='https://github.com/nightsense/snow/raw/master/images/name.png' /> to abstractions (like variables and functions)
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/c54040.png" height='12' width='12'> **types** ("meta-names" <img height="15" src='https://github.com/nightsense/snow/raw/master/images/type.png' />), such as variable type (int, char...) or storage class (static, register...)
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/b047bd.png" height='12' width='12'> **types** ("meta-names" <img height="15" src='https://github.com/nightsense/snow/raw/master/images/type.png' />), such as variable type (int, char...) or storage class (static, register...)
 
 <br>
 
 *because <img height="16" src='https://github.com/nightsense/snow/raw/master/images/gold.png' /> gold is a special color, gold text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/816e00.png" height='12' width='12'> **specials** (elements that unlock <img height="16" src='https://github.com/nightsense/snow/raw/master/images/special.png' /> special features), such as delimiters and debug statements
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/946e00.png" height='12' width='12'> **specials** (elements that unlock <img height="16" src='https://github.com/nightsense/snow/raw/master/images/special.png' /> special features), such as delimiters and debug statements
 
 <br>
 
 *because <img height="15" src='https://github.com/nightsense/snow/raw/master/images/green.png' /> green is the color of proceeding with action, greenish text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/008134.png" height='12' width='12'> **statements** (the magic <img height="11" src='https://github.com/nightsense/snow/raw/master/images/statement.png' /> "action words" of code), such as conditions (if, then...) or loops (for, do...)
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/00871e.png" height='12' width='12'> **statements** (the magic <img height="11" src='https://github.com/nightsense/snow/raw/master/images/statement.png' /> "action words" of code), such as conditions (if, then...) or loops (for, do...)
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/007996.png" height='12' width='12'> **meta-statements** ("meta-actions", or "meta-magic" <img height="16" src='https://github.com/nightsense/snow/raw/master/images/meta-statement.png' />), such as macros and "include module" statements
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/008092.png" height='12' width='12'> **meta-statements** ("meta-actions", or "meta-magic" <img height="16" src='https://github.com/nightsense/snow/raw/master/images/meta-statement.png' />), such as macros and "include module" statements
 
 <br>
 
 *because <img height="14" src='https://github.com/nightsense/snow/raw/master/images/blue.png' /> blue is the calm color of sea and sky, evoking enduring constancy, blue text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/006ed3.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/0072de.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
+
+primary colors (of the standard additive model) are assigned to "regular" elements
+secondary colors (magenta, yellow, cyan) are assigned to meta/special elements
 
 </td>
 
