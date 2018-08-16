@@ -30,9 +30,9 @@
 <tr>
 <td width='202'><code>Normal bg</code></td>
 <td><img src='http://www.colorhexa.com/f9fbff.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/b047bd.png' height='24' width='39'></td>
-<td width='202' colspan='2'><code>Type</code></td>
-<td><img src='http://www.colorhexa.com/c87ece.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/d8334e.png' height='24' width='39'></td>
+<td colspan='2'><code>Identifier</code></td>
+<td><img src='http://www.colorhexa.com/e6757a.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/28313d.png' height='24' width='39'></td>
 <td width='202'><code>Normal bg</code></td>
 </tr>
@@ -40,9 +40,9 @@
 <tr>
 <td><code>ColorColumn</code></td>
 <td><img src='http://www.colorhexa.com/e2e8f2.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/d8334e.png' height='24' width='39'></td>
-<td colspan='2'><code>Identifier</code></td>
-<td><img src='http://www.colorhexa.com/e6757a.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/946e00.png' height='24' width='39'></td>
+<td colspan='2'><code>Special</code></td>
+<td><img src='http://www.colorhexa.com/b5933f.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/313d4c.png' height='24' width='39'></td>
 <td><code>ColorColumn</code></td>
 </tr>
@@ -50,9 +50,9 @@
 <tr>
 <td><code>MatchParen</code></td>
 <td><img src='http://www.colorhexa.com/b5c5de.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/946e00.png' height='24' width='39'></td>
-<td colspan='2'><code>Special</code></td>
-<td><img src='http://www.colorhexa.com/b5933f.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/00871e.png' height='24' width='39'></td>
+<td colspan='2'><code>Statement</code></td>
+<td><img src='http://www.colorhexa.com/55a960.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/445368.png' height='24' width='39'></td>
 <td><code>MatchParen</code></td>
 </tr>
@@ -60,9 +60,9 @@
 <tr>
 <td><code>Comment</code></td>
 <td><img src='http://www.colorhexa.com/65758c.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/00871e.png' height='24' width='39'></td>
-<td colspan='2'><code>Statement</code></td>
-<td><img src='http://www.colorhexa.com/55a960.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/008092.png' height='24' width='39'></td>
+<td colspan='2'><code>PreProc</code></td>
+<td><img src='http://www.colorhexa.com/00a8b2.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/8797af.png' height='24' width='39'></td>
 <td><code>Comment</code></td>
 </tr>
@@ -70,9 +70,9 @@
 <tr>
 <td><code>Normal fg</code></td>
 <td><img src='http://www.colorhexa.com/445368.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/008092.png' height='24' width='39'></td>
-<td colspan='2'><code>PreProc</code></td>
-<td><img src='http://www.colorhexa.com/00a8b2.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/0072de.png' height='24' width='39'></td>
+<td colspan='2'><code>Constant</code></td>
+<td><img src='http://www.colorhexa.com/499ceb.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/b5c5de.png' height='24' width='39'></td>
 <td><code>Normal fg</code></td>
 </tr>
@@ -80,9 +80,9 @@
 <tr>
 <td><code>Cursor</code></td>
 <td><img src='http://www.colorhexa.com/313d4c.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/0072de.png' height='24' width='39'></td>
-<td colspan='2'><code>Constant</code></td>
-<td><img src='http://www.colorhexa.com/499ceb.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b047bd.png' height='24' width='39'></td>
+<td width='202' colspan='2'><code>Type</code></td>
+<td><img src='http://www.colorhexa.com/c87ece.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/e2e8f2.png' height='24' width='39'></td>
 <td><code>Cursor</code></td>
 </tr>
