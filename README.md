@@ -289,23 +289,23 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 <table><tbody>
 
 <tr>
-<td>`|||`</td>
-<td>snow is provided under the [MIT license](https://opensource.org/licenses/MIT)</td>
+<td><code>|||</code></td>
+<td>snow is provided under the <a href='https://opensource.org/licenses/MIT'>MIT license</a></td>
 </tr>
 
 <tr>
-<td>` ♊ `</td>
-<td>theme files were generated with [Colortemplate](https://github.com/lifepillar/vim-colortemplate)</td>
+<td><code> ♊ </code></td>
+<td>theme files generated with <a href='https://github.com/lifepillar/vim-colortemplate'>Colortemplate</a></td>
 </tr>
 
 <tr>
-<td>`W3C`</td>
-<td>all text/background combinations meet the 4.5:1 W3C [contrast ratio standard](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head), except for cursorline/column highlighting (which still meets the ISO 3:1 standard)</td>
+<td><code>W3C</code></td>
+<td>all text/background combinations meet the 4.5:1 W3C <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>contrast ratio standard</a>, except for cursorline/column highlighting (which still meets the ISO 3:1 standard)</td>
 </tr>
 
 <tr>
-<td>` ❑ ` </td>
-<td>snowflake macrophoto by [Olga & Alexey (CC BY-NC 2.0)](https://www.flickr.com/photos/chaoticmind75/39326731084/)</td>
+<td><code> ❑ </code></td>
+<td>snowflake macrophoto by <a href='https://www.flickr.com/photos/chaoticmind75/39326731084/'>Olga & Alexey (CC BY-NC 2.0)</a></td>
 </tr>
 
 </tbody></table>
