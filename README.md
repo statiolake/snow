@@ -289,12 +289,12 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 <table><tbody align='center'>
 
 <tr>
-<td width='131'><a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' height='26' /></a></td>
+<td width='131'><a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a></td>
 <td>snow is provided under the <a href='https://opensource.org/licenses/MIT'>MIT license</a></td>
 </tr>
 
 <tr>
-<td><code> ♊ </code></td>
+<td><a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-616161.svg?style=flat-square' /></a></td>
 <td>theme files generated with <a href='https://github.com/lifepillar/vim-colortemplate'>Colortemplate</a></td>
 </tr>
 
