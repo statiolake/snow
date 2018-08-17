@@ -290,7 +290,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 &nbsp;&nbsp;&nbsp;
 <a href='https://www.python.org/'><img src='https://img.shields.io/badge/made%20with-Python-306998.svg?style=flat-square' /></a>
 &nbsp;&nbsp;&nbsp;
-<a href='https://fishshell.com/'><img src='https://img.shields.io/badge/made%20with-fish-000000.svg?style=flat-square' /></a>
+<a href='https://fishshell.com/'><img src='https://img.shields.io/badge/made%20with-fish-d2232a.svg?style=flat-square' /></a>
 &nbsp;&nbsp;&nbsp;
 <a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-16873f.svg?style=flat-square' /></a>
 &nbsp;&nbsp;&nbsp;
