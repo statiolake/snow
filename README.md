@@ -49,7 +49,7 @@
 <tr></tr>
 <tr>
 <td><code>MatchParen</code></td>
-<td><img src='http://www.colorhexa.com/b5c5de.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b8c5d9.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/00871e.png' height='24' width='39'></td>
 <td colspan='2'><code>Statement</code></td>
 <td><img src='http://www.colorhexa.com/55a960.png' height='24' width='39'></td>
@@ -73,7 +73,7 @@
 <td><img src='http://www.colorhexa.com/0072de.png' height='24' width='39'></td>
 <td colspan='2'><code>Constant</code></td>
 <td><img src='http://www.colorhexa.com/499ceb.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/b5c5de.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/b8c5d9.png' height='24' width='39'></td>
 <td><code>Normal fg</code></td>
 </tr>
 <tr></tr>
