@@ -289,7 +289,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 <table><tbody align='center'>
 
 <tr>
-<td><a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' height='20' /></a></td>
+<td width='300'><a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a></td>
 <td>snow is provided under the <a href='https://opensource.org/licenses/MIT'>MIT license</a></td>
 </tr>
 
