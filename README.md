@@ -289,7 +289,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 <table><tbody align='center'>
 
 <tr>
-<td width='131'><a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a></td>
+<td width='212'><a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a></td>
 <td>snow is provided under the <a href='https://opensource.org/licenses/MIT'>MIT license</a></td>
 </tr>
 
@@ -299,7 +299,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 </tr>
 
 <tr>
-<td><code>W3C</code></td>
+<td><a href='https://www.w3.org/'><img src='https://github.com/nightsense/snow/raw/master/images/w3c.png' height='25' /></a></td>
 <td>all text/background combinations meet the 4.5:1 W3C <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>contrast ratio standard</a>, except for cursorline/column highlighting (which still meets the ISO 3:1 standard)</td>
 </tr>
 
