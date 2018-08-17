@@ -294,18 +294,17 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 </tr>
 
 <tr>
-<td><a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-616161.svg?style=flat-square' /></a></td>
+<td><a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-199f4b.svg?style=flat-square' /></a></td>
 <td>theme files generated with <a href='https://github.com/lifepillar/vim-colortemplate'>Colortemplate</a></td>
 </tr>
 
 <tr>
-<td><a href='https://www.w3.org/'><img src='https://github.com/nightsense/snow/raw/master/images/w3c.png' height='20' /></a></td>
-<td>all text/background combinations meet the 4.5:1 W3C <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>contrast ratio standard</a>, except for cursorline/column highlighting (which still meets the ISO 3:1 standard)</td>
+<td><a href='https://www.w3.org/'><img src='https://github.com/nightsense/snow/raw/master/images/w3c.png' height='24' /></a></td>
+<td>all text/background combinations meet the 4.5:1 W3C <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>contrast ratio standard</a>, with the exception of transient cursorline/column highlighting (which still meets the ISO 3:1 standard)</td>
 </tr>
 
 <tr>
-<td><code> ❑ </code></td>
-<td>snowflake macrophoto by <a href='https://www.flickr.com/photos/chaoticmind75/39326731084/'>Olga & Alexey (CC BY-NC 2.0)</a></td>
+<td colspan='2'>snowflake macrophoto by <a href='https://www.flickr.com/photos/chaoticmind75/39326731084/'>Olga & Alexey (CC BY-NC 2.0)</a></td>
 </tr>
 
 </tbody></table>
