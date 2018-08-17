@@ -292,7 +292,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 &nbsp;&nbsp;&nbsp;
 <a href='https://fishshell.com/'><img src='https://img.shields.io/badge/made%20with-fish-d2232a.svg?style=flat-square' /></a>
 &nbsp;&nbsp;&nbsp;
-<a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-16873f.svg?style=flat-square' /></a>
+<a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-007f00.svg?style=flat-square' /></a>
 &nbsp;&nbsp;&nbsp;
 <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'><img src='https://img.shields.io/badge/compliant%20with-4.5%3A1%20readability%20contrast-005a9c.svg?style=flat-square' /></a>
 
