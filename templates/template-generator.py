@@ -286,7 +286,7 @@ hexcyan_dk = tohex( phic(1.03) , cro_dkacnt , hue_cyan )
 hexblue_dk = tohex( phic(1.00) , cro_dkacnt , hue_blue )
 hexmgnt_dk = tohex( phic(0.96) , cro_dkacnt , hue_mgnt )
 
-hexsrch_lt = tohex( phic(0.38) , phic(0.38) , hue_gold )
+hexsrch_lt = tohex( phic(0.25) , phic(0.25) , hue_gold )
 hexsrch_dk = tohex( phic(1.50) , phic(1.50) , hue_gold )
 
 lum_ltspel = phic(1.50)
