@@ -270,7 +270,7 @@ hexgry3_lt = tohex( phic(2.20) , phic(4.00) , hue_blue )
 hexgry0_dk = tohex( phic(3.36) , phic(5.00) , hue_blue )
 hexgry1_dk = tohex( phic(2.88) , phic(4.50) , hue_blue )
 hexgry2_dk = tohex( phic(1.00) , phic(4.00) , hue_blue )
-hexgry3_dk = tohex( phic(0.49) , phic(4.00) , hue_blue )
+hexgry3_dk = tohex( phic(0.49) , phic(4.50) , hue_blue )
 
 hexred__lt = tohex( phic(1.45) , cro_ltacnt , hue_red_ )
 hexgold_lt = tohex( phic(1.48) , cro_ltacnt , hue_gold )

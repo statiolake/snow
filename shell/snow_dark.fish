@@ -1,10 +1,10 @@
 # snow_dark fish shell theme by nightsense (https://github.com/nightsense/snow)
 
 # normal text
-set fish_color_host              b5c5de
-set fish_color_normal            b5c5de
-set fish_pager_color_completion  b5c5de
-set fish_pager_color_description b5c5de
+set fish_color_host              b8c5d9
+set fish_color_normal            b8c5d9
+set fish_pager_color_completion  b8c5d9
+set fish_pager_color_description b8c5d9
 
 # muted text
 set fish_color_autosuggestion    8797af

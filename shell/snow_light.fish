@@ -17,9 +17,9 @@ set fish_pager_color_progress    f9fbff --background=#65758c
 set fish_color_valid_path        --underline
 
 # highlit text
-set fish_color_match             --background=#b5c5de
-set fish_color_search_match      --background=#b5c5de
-set fish_color_selection         --background=#b5c5de
+set fish_color_match             --background=#b8c5d9
+set fish_color_search_match      --background=#b8c5d9
+set fish_color_selection         --background=#b8c5d9
 
 # red errors/warnings
 set fish_color_cancel            d8334e
