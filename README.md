@@ -286,7 +286,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 
 ---
 
-<a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-199f4b.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'><img src='https://img.shields.io/badge/standard%20met-W3C%20contrast-005a9c.svg?style=flat-square' /></a>
+<a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-199f4b.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'><img src='https://img.shields.io/badge/meets%20standard-W3C%20contrast-005a9c.svg?style=flat-square' /></a>
 
 <h6>The 4.5:1 <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>W3C contrast ratio standard</a> for readability is met by all text/background combinations with the exception of some transient highlighting (cursorline/column), which nonetheless well exceeds the minimal ISO 3:1 standard.</h6>
 
