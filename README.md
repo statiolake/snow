@@ -286,8 +286,8 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 
 ---
 
-<a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-199f4b.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'><img src='https://img.shields.io/badge/meets%20standard-W3C%204.5%3A1%20contrast%20ratio-005a9c.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://www.w3.org/'><img src='https://github.com/nightsense/snow/raw/master/images/w3c.png' height='24' /></a>
+<a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/lifepillar/vim-colortemplate'><img src='https://img.shields.io/badge/made%20with-Colortemplate-199f4b.svg?style=flat-square' /></a>&nbsp;&nbsp;&nbsp;<a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'><img src='https://img.shields.io/badge/meets%20standard-W3C%204.5%3A1%20contrast%20ratio-005a9c.svg?style=flat-square' /></a>
 
-<h6>All text/background combinations meet the 4.5:1 W3C <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>contrast ratio standard</a>, with the exception of transient cursorline/column highlighting (which still meets the ISO 3:1 standard)</h6>
+<h6>The 4.5:1 <a href='https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head'>W3C contrast ratio standard</a> is met by all text/background combinations with the exception of transient cursorline/column highlighting, which still meets the ISO 3:1 standard.</h6>
 
 <h6>image credit: snowflake macrophoto by <a href='https://www.flickr.com/photos/chaoticmind75/39326731084/'>Olga & Alexey (CC BY-NC 2.0)</h6>
