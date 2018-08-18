@@ -4,12 +4,12 @@
 # snow_light scheme by nightsense (https://github.com/nightsense/snow)
 
 color00="f9/fb/ff" # Base 00 - Black
-color01="d8/33/4e" # Base 08 - Red
-color02="00/87/1e" # Base 0B - Green
-color03="94/6e/00" # Base 0A - Yellow
-color04="00/72/de" # Base 0D - Blue
-color05="b0/47/bd" # Base 0E - Magenta
-color06="00/80/92" # Base 0C - Cyan
+color01="ce/41/52" # Base 08 - Red
+color02="00/87/2d" # Base 0B - Green
+color03="92/6e/00" # Base 0A - Yellow
+color04="00/75/d4" # Base 0D - Blue
+color05="aa/4e/b4" # Base 0E - Magenta
+color06="00/80/8f" # Base 0C - Cyan
 color07="44/53/68" # Base 05 - White
 color08="e2/e8/f2" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
@@ -67,7 +67,7 @@ if [ -n "$ITERM_SESSION_ID" ]; then
   put_template_custom Pg #445368 # foreground
   put_template_custom Ph #f9fbff # background
   put_template_custom Pi #445368 # bold color
-  put_template_custom Pj #0072de # selection color
+  put_template_custom Pj #0075d4 # selection color
   put_template_custom Pk #f9fbff # selected text color
   put_template_custom Pl #445368 # cursor
   put_template_custom Pm #f9fbff # cursor text
