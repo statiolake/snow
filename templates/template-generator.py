@@ -265,12 +265,12 @@ cro_dkacnt = phic(2.00)
 hexgry0_lt = tohex( phic(0.03) , phic(8.00) , hue_blue )
 hexgry1_lt = tohex( phic(0.18) , phic(6.00) , hue_blue )
 hexgry2_lt = tohex( phic(1.50) , phic(4.00) , hue_blue )
-hexgry3_lt = tohex( phic(2.20) , phic(4.00) , hue_blue )
+hexgry3_lt = tohex( phic(2.09) , phic(4.00) , hue_blue )
 
 hexgry0_dk = tohex( phic(3.36) , phic(5.00) , hue_blue )
 hexgry1_dk = tohex( phic(2.88) , phic(4.50) , hue_blue )
 hexgry2_dk = tohex( phic(1.00) , phic(4.00) , hue_blue )
-hexgry3_dk = tohex( phic(0.49) , phic(4.50) , hue_blue )
+hexgry3_dk = tohex( phic(0.55) , phic(4.50) , hue_blue )
 
 hexred__lt = tohex( phic(1.46) , cro_ltacnt , hue_red_ )
 hexgold_lt = tohex( phic(1.48) , cro_ltacnt , hue_gold )
@@ -287,7 +287,7 @@ hexblue_dk = tohex( phic(0.99) , cro_dkacnt , hue_blue )
 hexmgnt_dk = tohex( phic(0.97) , cro_dkacnt , hue_mgnt )
 
 hexsrch_lt = tohex( phic(0.25) , phic(0.25) , hue_gold )
-hexsrch_dk = tohex( phic(1.50) , phic(2.00) , hue_gold )
+hexsrch_dk = tohex( phic(1.50) , phic(2.50) , hue_gold )
 
 lum_ltspel = phic(1.50)
 cro_ltspel = phic(0.00)

@@ -1,10 +1,10 @@
 # snow_dark fish shell theme by nightsense (https://github.com/nightsense/snow)
 
 # normal text
-set fish_color_host              b8c5d9
-set fish_color_normal            b8c5d9
-set fish_pager_color_completion  b8c5d9
-set fish_pager_color_description b8c5d9
+set fish_color_host              b2bfd2
+set fish_color_normal            b2bfd2
+set fish_pager_color_completion  b2bfd2
+set fish_pager_color_description b2bfd2
 
 # muted text
 set fish_color_autosuggestion    8797af
@@ -17,9 +17,9 @@ set fish_pager_color_progress    28313d --background=#8797af
 set fish_color_valid_path        --underline
 
 # highlit text
-set fish_color_match             --background=#445368
-set fish_color_search_match      --background=#445368
-set fish_color_selection         --background=#445368
+set fish_color_match             --background=#48586d
+set fish_color_search_match      --background=#48586d
+set fish_color_selection         --background=#48586d
 
 # red errors/warnings
 set fish_color_cancel            d77f81
