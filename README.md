@@ -126,7 +126,7 @@ while **secondary colors** (magenta, yellow, cyan) are assigned to "elevated" (m
 
 <br>
 
-the blue-tinted, cyanotype experience of snow has a warm-tinted, sepia complement in <a href="https://github.com/nightsense/rusticated">rusticated</a>
+the blue-toned, cyanotype experience of snow has a warm-toned, sepia complement in <a href="https://github.com/nightsense/rusticated">rusticated</a>
 
 </td>
 </tr>
