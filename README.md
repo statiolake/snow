@@ -121,8 +121,13 @@
 
 <br>
 
-the primary (additive model) colors (red, green, blue) are thus assigned to "regular" elements, while<br>
-the secondary colors (magenta, yellow, cyan) are assigned to "elevated" (meta/special) elements
+**primary colors** of the standard additive model (red, green, blue) are thus assigned to "regular" elements,<br>
+while **secondary colors** (magenta, yellow, cyan) are assigned to "elevated" (meta/special) elements
+
+<br>
+
+the warm-tinted counterpart of snow is <a href="https://github.com/nightsense/rusticated">rusticated</a>
+
 </td>
 </tr>
 
