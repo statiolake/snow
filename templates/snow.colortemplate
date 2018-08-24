@@ -9,21 +9,21 @@ Background: light
 Color:      gry0 #f9fbff ~
 Color:      gry1 #e2e8f2 ~
 Color:      gry2 #65758c ~
-Color:      gry3 #48586d ~
-Color:      gryc #313d4c ~
+Color:      gry3 #4c5767 ~
+Color:      gryc #313b4a ~
 Color:      srch #ffd506 ~
-Color:      grys #313d4c ~
-Color:      gryp #b2bfd2 ~
+Color:      grys #313b4a ~
+Color:      gryp #b0bcce ~
 Color:      sprd #f7003c ~
 Color:      spbl #0082ff ~
 Color:      spcy #0093b3 ~
 Color:      spmg #c709dd ~
-Color:      red_ #ce4152 ~
-Color:      gold #926e00 ~
-Color:      gren #00872d ~
-Color:      cyan #00808f ~
-Color:      blue #0075d4 ~
-Color:      mgnt #aa4eb4 ~
+Color:      red_ #d23a4f ~
+Color:      gold #936e00 ~
+Color:      gren #008726 ~
+Color:      cyan #008091 ~
+Color:      blue #0073d9 ~
+Color:      mgnt #ad4bb8 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim
@@ -266,24 +266,24 @@ set fish_pager_color_prefix      @guimgnt
 endauxfile
 
 Background: dark
-Color:      gry0 #28313d ~
-Color:      gry1 #313d4c ~
+Color:      gry0 #282f3a ~
+Color:      gry1 #313b4a ~
 Color:      gry2 #8797af ~
-Color:      gry3 #b2bfd2 ~
+Color:      gry3 #b0bcce ~
 Color:      gryc #e2e8f2 ~
 Color:      srch #867040 ~
 Color:      grys #e2e8f2 ~
-Color:      gryp #48586d ~
+Color:      gryp #4c5767 ~
 Color:      sprd #ff707e ~
 Color:      spbl #00b4ff ~
 Color:      spcy #00c8d9 ~
 Color:      spmg #ee81f9 ~
-Color:      red_ #d77f81 ~
-Color:      gold #b19454 ~
-Color:      gren #67a66c ~
-Color:      cyan #00a8af ~
-Color:      blue #649bd9 ~
-Color:      mgnt #bd84c2 ~
+Color:      red_ #dc787b ~
+Color:      gold #b19249 ~
+Color:      gren #5da564 ~
+Color:      cyan #00a6af ~
+Color:      blue #5799df ~
+Color:      mgnt #bf7fc5 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
