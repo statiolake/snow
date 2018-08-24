@@ -6,24 +6,24 @@ Short name:      snow
 Terminal Colors: 256
 
 Background: light
-Color:      gry0 #f9fbff ~
-Color:      gry1 #e2e8f2 ~
-Color:      gry2 #65758c ~
-Color:      gry3 #4c5767 ~
-Color:      gryc #313b4a ~
+Color:      gry0 #fafdff ~
+Color:      gry1 #e4e9f1 ~
+Color:      gry2 #67768d ~
+Color:      gry3 #495669 ~
+Color:      gryc #303a48 ~
 Color:      srch #ffd506 ~
-Color:      grys #313b4a ~
-Color:      gryp #b0bcce ~
+Color:      grys #303a48 ~
+Color:      gryp #b1bfd4 ~
 Color:      sprd #f7003c ~
 Color:      spbl #0082ff ~
 Color:      spcy #0093b3 ~
 Color:      spmg #c709dd ~
-Color:      red_ #d23a4f ~
-Color:      gold #936e00 ~
-Color:      gren #008726 ~
-Color:      cyan #008091 ~
-Color:      blue #0073d9 ~
-Color:      mgnt #ad4bb8 ~
+Color:      red_ #d2334c ~
+Color:      gold #8f6900 ~
+Color:      gren #00811b ~
+Color:      cyan #007d8f ~
+Color:      blue #0068cf ~
+Color:      mgnt #a741b3 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim
@@ -266,24 +266,24 @@ set fish_pager_color_prefix      @guimgnt
 endauxfile
 
 Background: dark
-Color:      gry0 #282f3a ~
-Color:      gry1 #313b4a ~
-Color:      gry2 #8797af ~
-Color:      gry3 #b0bcce ~
-Color:      gryc #e2e8f2 ~
+Color:      gry0 #272e39 ~
+Color:      gry1 #303a48 ~
+Color:      gry2 #8696ae ~
+Color:      gry3 #b1bfd4 ~
+Color:      gryc #e4e9f1 ~
 Color:      srch #867040 ~
-Color:      grys #e2e8f2 ~
-Color:      gryp #4c5767 ~
+Color:      grys #e4e9f1 ~
+Color:      gryp #495669 ~
 Color:      sprd #ff707e ~
 Color:      spbl #00b4ff ~
 Color:      spcy #00c8d9 ~
 Color:      spmg #ee81f9 ~
-Color:      red_ #dc787b ~
-Color:      gold #b19249 ~
-Color:      gren #5da564 ~
-Color:      cyan #00a6af ~
-Color:      blue #5799df ~
-Color:      mgnt #bf7fc5 ~
+Color:      red_ #df7579 ~
+Color:      gold #c7a556 ~
+Color:      gren #62b06a ~
+Color:      cyan #00aab3 ~
+Color:      blue #57a0eb ~
+Color:      mgnt #c782cd ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
