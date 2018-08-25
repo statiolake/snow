@@ -7,8 +7,6 @@
 </td>
 </tr>
 
-<tr></tr>
-
 <tr>
 
 <td colspan='4' width='50%'>
@@ -24,8 +22,6 @@
 </td>
 
 </tr>
-
-<tr></tr>
 
 <tr>
 <td width='202'><code>Normal bg</code></td>
