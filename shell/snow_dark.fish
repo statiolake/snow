@@ -27,22 +27,22 @@ set fish_color_cwd_root          e27277
 set fish_color_error             e27277
 
 # gold special elements
-set fish_color_redirection       d1ad58
-set fish_color_escape            d1ad58
-set fish_color_operator          d1ad58
-set fish_color_end               d1ad58
+set fish_color_redirection       c8a550
+set fish_color_escape            c8a550
+set fish_color_operator          c8a550
+set fish_color_end               c8a550
 
 # green commands/status
-set fish_color_command           5db167
-set fish_color_cwd               5db167
-set fish_color_user              5db167
+set fish_color_command           58ac62
+set fish_color_cwd               58ac62
+set fish_color_user              58ac62
 
 # cyan parameters
-set fish_color_param             00adb7
+set fish_color_param             00abb5
 
 # blue quoted strings
 set fish_color_quote             499ceb
 
 # magenta pager name match
-set fish_pager_color_prefix      cc82d2
+set fish_pager_color_prefix      c980d0
 

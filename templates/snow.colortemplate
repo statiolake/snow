@@ -279,11 +279,11 @@ Color:      spbl #00b4ff ~
 Color:      spcy #00c8d9 ~
 Color:      spmg #ee81f9 ~
 Color:      red_ #e27277 ~
-Color:      gold #d1ad58 ~
-Color:      gren #5db167 ~
-Color:      cyan #00adb7 ~
+Color:      gold #c8a550 ~
+Color:      gren #58ac62 ~
+Color:      cyan #00abb5 ~
 Color:      blue #499ceb ~
-Color:      mgnt #cc82d2 ~
+Color:      mgnt #c980d0 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
