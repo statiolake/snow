@@ -18,12 +18,12 @@ Color:      sprd #f7003c ~
 Color:      spbl #0082ff ~
 Color:      spcy #0093b3 ~
 Color:      spmg #c709dd ~
-Color:      red_ #d14354 ~
+Color:      red_ #cb3e50 ~
 Color:      gold #947000 ~
 Color:      gren #00842a ~
-Color:      cyan #008190 ~
+Color:      cyan #007e8e ~
 Color:      blue #006ac8 ~
-Color:      mgnt #a74cb2 ~
+Color:      mgnt #a247ad ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim

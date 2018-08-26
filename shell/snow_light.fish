@@ -22,9 +22,9 @@ set fish_color_search_match      --background=#b1bed1
 set fish_color_selection         --background=#b1bed1
 
 # red errors/warnings
-set fish_color_cancel            d14354
-set fish_color_cwd_root          d14354
-set fish_color_error             d14354
+set fish_color_cancel            cb3e50
+set fish_color_cwd_root          cb3e50
+set fish_color_error             cb3e50
 
 # gold special elements
 set fish_color_redirection       947000
@@ -38,11 +38,11 @@ set fish_color_cwd               00842a
 set fish_color_user              00842a
 
 # cyan parameters
-set fish_color_param             008190
+set fish_color_param             007e8e
 
 # blue quoted strings
 set fish_color_quote             006ac8
 
 # magenta pager name match
-set fish_pager_color_prefix      a74cb2
+set fish_pager_color_prefix      a247ad
 

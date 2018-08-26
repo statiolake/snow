@@ -4,12 +4,12 @@
 # snow_light scheme by nightsense (https://github.com/nightsense/snow)
 
 color00="ff/ff/ff" # Base 00 - Black
-color01="d1/43/54" # Base 08 - Red
+color01="cb/3e/50" # Base 08 - Red
 color02="00/84/2a" # Base 0B - Green
 color03="94/70/00" # Base 0A - Yellow
 color04="00/6a/c8" # Base 0D - Blue
-color05="a7/4c/b2" # Base 0E - Magenta
-color06="00/81/90" # Base 0C - Cyan
+color05="a2/47/ad" # Base 0E - Magenta
+color06="00/7e/8e" # Base 0C - Cyan
 color07="4c/57/68" # Base 05 - White
 color08="e8/ed/f5" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
