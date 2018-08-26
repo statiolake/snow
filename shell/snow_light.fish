@@ -1,10 +1,10 @@
 # snow_light fish shell theme by nightsense (https://github.com/nightsense/snow)
 
 # normal text
-set fish_color_host              4c5768
-set fish_color_normal            4c5768
-set fish_pager_color_completion  4c5768
-set fish_pager_color_description 4c5768
+set fish_color_host              4e5a6b
+set fish_color_normal            4e5a6b
+set fish_pager_color_completion  4e5a6b
+set fish_pager_color_description 4e5a6b
 
 # muted text
 set fish_color_autosuggestion    68778e
@@ -17,14 +17,14 @@ set fish_pager_color_progress    ffffff --background=#68778e
 set fish_color_valid_path        --underline
 
 # highlit text
-set fish_color_match             --background=#b1bed1
-set fish_color_search_match      --background=#b1bed1
-set fish_color_selection         --background=#b1bed1
+set fish_color_match             --background=#aebbce
+set fish_color_search_match      --background=#aebbce
+set fish_color_selection         --background=#aebbce
 
 # red errors/warnings
-set fish_color_cancel            cb3e50
-set fish_color_cwd_root          cb3e50
-set fish_color_error             cb3e50
+set fish_color_cancel            ce4152
+set fish_color_cwd_root          ce4152
+set fish_color_error             ce4152
 
 # gold special elements
 set fish_color_redirection       947000
@@ -41,8 +41,8 @@ set fish_color_user              00842a
 set fish_color_param             007e8e
 
 # blue quoted strings
-set fish_color_quote             006ac8
+set fish_color_quote             006cca
 
 # magenta pager name match
-set fish_pager_color_prefix      a247ad
+set fish_pager_color_prefix      a74cb2
 

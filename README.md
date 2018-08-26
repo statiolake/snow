@@ -26,7 +26,7 @@
 <tr>
 <td width='202'><code>Normal bg</code></td>
 <td><img src='http://www.colorhexa.com/ffffff.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/cb3e50.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/ce4152.png' height='24' width='39'></td>
 <td colspan='2'><code>Identifier</code></td>
 <td><img src='http://www.colorhexa.com/d47b7d.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/272e37.png' height='24' width='39'></td>
@@ -65,20 +65,20 @@
 <tr></tr>
 <tr>
 <td><code>Normal fg</code></td>
-<td><img src='http://www.colorhexa.com/4a576b.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/006ac8.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/4e5a6b.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/006cca.png' height='24' width='39'></td>
 <td colspan='2'><code>Constant</code></td>
 <td><img src='http://www.colorhexa.com/649ad8.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/b0bed4.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/aebbce.png' height='24' width='39'></td>
 <td><code>Normal fg</code></td>
 </tr>
 <tr></tr>
 <tr>
 <td><code>Cursor</code></td>
 <td><img src='http://www.colorhexa.com/303a48.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/a247ad.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/a74cb2.png' height='24' width='39'></td>
 <td width='202' colspan='2'><code>Type</code></td>
-<td><img src='http://www.colorhexa.com/bb82bf.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/bd83c1.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/e6eaf2.png' height='24' width='39'></td>
 <td><code>Cursor</code></td>
 </tr>
@@ -91,9 +91,9 @@
 
 *because <img height="16" src='https://github.com/nightsense/snow/raw/master/images/red.png' /> red is the color of life, reddish text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/cb3e50.png" height='12' width='12'> **names**, which give life <img height="9" src='https://github.com/nightsense/snow/raw/master/images/name.png' /> to abstractions (like variables and functions)
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/ce4152.png" height='12' width='12'> **names**, which give life <img height="9" src='https://github.com/nightsense/snow/raw/master/images/name.png' /> to abstractions (like variables and functions)
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/a247ad.png" height='12' width='12'> **types** ("meta-names" <img height="15" src='https://github.com/nightsense/snow/raw/master/images/type.png' />), such as variable type (int, char...) or storage class (static, register...)
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/a74cb2.png" height='12' width='12'> **types** ("meta-names" <img height="15" src='https://github.com/nightsense/snow/raw/master/images/type.png' />), such as variable type (int, char...) or storage class (static, register...)
 
 <br>
 
@@ -113,7 +113,7 @@
 
 *because <img height="14" src='https://github.com/nightsense/snow/raw/master/images/blue.png' /> blue is the calm color of sea and sky, evoking enduring constancy, blue text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/006ac8.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/006cca.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
 
 <br>
 
