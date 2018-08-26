@@ -38,7 +38,7 @@ set fish_color_cwd               6baa70
 set fish_color_user              6baa70
 
 # cyan parameters
-set fish_color_param             00a7ae
+set fish_color_param             0aaab1
 
 # blue quoted strings
 set fish_color_quote             649ad8
