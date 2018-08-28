@@ -7,42 +7,42 @@ set fish_pager_color_completion  4e5a6b
 set fish_pager_color_description 4e5a6b
 
 # muted text
-set fish_color_autosuggestion    68778e
-set fish_color_comment           68778e
+set fish_color_autosuggestion    6a778b
+set fish_color_comment           6a778b
 
 # reverse muted
-set fish_pager_color_progress    ffffff --background=#68778e
+set fish_pager_color_progress    ffffff --background=#6a778b
 
 # underlined text
 set fish_color_valid_path        --underline
 
 # highlit text
-set fish_color_match             --background=#aebbce
-set fish_color_search_match      --background=#aebbce
-set fish_color_selection         --background=#aebbce
+set fish_color_match             --background=#b0bbcc
+set fish_color_search_match      --background=#b0bbcc
+set fish_color_selection         --background=#b0bbcc
 
 # red errors/warnings
-set fish_color_cancel            ce4152
-set fish_color_cwd_root          ce4152
-set fish_color_error             ce4152
+set fish_color_cancel            d14354
+set fish_color_cwd_root          d14354
+set fish_color_error             d14354
 
 # gold special elements
-set fish_color_redirection       947000
-set fish_color_escape            947000
-set fish_color_operator          947000
-set fish_color_end               947000
+set fish_color_redirection       967100
+set fish_color_escape            967100
+set fish_color_operator          967100
+set fish_color_end               967100
 
 # green commands/status
-set fish_color_command           00842a
-set fish_color_cwd               00842a
-set fish_color_user              00842a
+set fish_color_command           00872c
+set fish_color_cwd               00872c
+set fish_color_user              00872c
 
 # cyan parameters
-set fish_color_param             007e8e
+set fish_color_param             008190
 
 # blue quoted strings
-set fish_color_quote             006cca
+set fish_color_quote             006ecd
 
 # magenta pager name match
-set fish_pager_color_prefix      a74cb2
+set fish_pager_color_prefix      a54aaf
 
