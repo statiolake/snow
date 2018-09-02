@@ -36,7 +36,7 @@
 <tr>
 <td><code>ColorColumn</code></td>
 <td><img src='http://www.colorhexa.com/e9edf3.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/936f00.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/957100.png' height='24' width='39'></td>
 <td colspan='2'><code>Special</code></td>
 <td><img src='http://www.colorhexa.com/b89b5a.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/303945.png' height='24' width='39'></td>
@@ -66,7 +66,7 @@
 <tr>
 <td><code>Normal fg</code></td>
 <td><img src='http://www.colorhexa.com/4e5a6b.png' height='24' width='39'></td>
-<td><img src='http://www.colorhexa.com/006ecd.png' height='24' width='39'></td>
+<td><img src='http://www.colorhexa.com/006ccb.png' height='24' width='39'></td>
 <td colspan='2'><code>Constant</code></td>
 <td><img src='http://www.colorhexa.com/6198d6.png' height='24' width='39'></td>
 <td><img src='http://www.colorhexa.com/b0bbcc.png' height='24' width='39'></td>
@@ -99,7 +99,7 @@
 
 *because <img height="16" src='https://github.com/nightsense/snow/raw/master/images/gold.png' /> gold is a special color, gold text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/936f00.png" height='12' width='12'> **specials** (elements that unlock <img height="16" src='https://github.com/nightsense/snow/raw/master/images/special.png' /> special features), such as delimiters and debug statements
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/957100.png" height='12' width='12'> **specials** (elements that unlock <img height="16" src='https://github.com/nightsense/snow/raw/master/images/special.png' /> special features), such as delimiters and debug statements
 
 <br>
 
@@ -113,7 +113,7 @@
 
 *because <img height="14" src='https://github.com/nightsense/snow/raw/master/images/blue.png' /> blue is the calm color of sea and sky, evoking enduring constancy, blue text is for...*
 
-&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/006ecd.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://www.colorhexa.com/006ccb.png" height='12' width='12'> **constants** (values that are fixed <img height="22" src='https://github.com/nightsense/snow/raw/master/images/constant.png' /> in place), such as booleans, integers, and strings
 
 <br>
 
