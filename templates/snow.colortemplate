@@ -19,10 +19,10 @@ Color:      spbl #0082ff ~
 Color:      spcy #0093b3 ~
 Color:      spmg #c709dd ~
 Color:      red_ #d14354 ~
-Color:      gold #936f00 ~
+Color:      gold #957100 ~
 Color:      gren #00872c ~
 Color:      cyan #007f8f ~
-Color:      blue #006ecd ~
+Color:      blue #006ccb ~
 Color:      mgnt #a84db3 ~
 Include:    _common.colortemplate
 
@@ -274,10 +274,10 @@ Color:      gryc #e9edf3 ~
 Color:      srch #867040 ~
 Color:      grys #e9edf3 ~
 Color:      gryp #4e5a6b ~
-Color:      sprd #ff707e ~
-Color:      spbl #00b4ff ~
-Color:      spcy #00c8d9 ~
-Color:      spmg #ee81f9 ~
+Color:      sprd #ff7a83 ~
+Color:      spbl #2db3ff ~
+Color:      spcy #00c5d3 ~
+Color:      spmg #e787f0 ~
 Color:      red_ #d37b7d ~
 Color:      gold #b89b5a ~
 Color:      gren #67a66c ~

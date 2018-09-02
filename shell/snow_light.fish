@@ -27,10 +27,10 @@ set fish_color_cwd_root          d14354
 set fish_color_error             d14354
 
 # gold special elements
-set fish_color_redirection       936f00
-set fish_color_escape            936f00
-set fish_color_operator          936f00
-set fish_color_end               936f00
+set fish_color_redirection       957100
+set fish_color_escape            957100
+set fish_color_operator          957100
+set fish_color_end               957100
 
 # green commands/status
 set fish_color_command           00872c
@@ -41,7 +41,7 @@ set fish_color_user              00872c
 set fish_color_param             007f8f
 
 # blue quoted strings
-set fish_color_quote             006ecd
+set fish_color_quote             006ccb
 
 # magenta pager name match
 set fish_pager_color_prefix      a84db3
