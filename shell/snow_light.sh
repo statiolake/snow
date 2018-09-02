@@ -6,10 +6,10 @@
 color00="ff/ff/ff" # Base 00 - Black
 color01="d1/43/54" # Base 08 - Red
 color02="00/87/2c" # Base 0B - Green
-color03="96/71/00" # Base 0A - Yellow
+color03="93/6f/00" # Base 0A - Yellow
 color04="00/6e/cd" # Base 0D - Blue
-color05="a5/4a/af" # Base 0E - Magenta
-color06="00/81/90" # Base 0C - Cyan
+color05="a8/4d/b3" # Base 0E - Magenta
+color06="00/7f/8f" # Base 0C - Cyan
 color07="4e/5a/6b" # Base 05 - White
 color08="e9/ed/f3" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
