@@ -81,6 +81,7 @@ DiffDelete         red_   gry0   reverse
 DiffRemoved        red_   gry0   reverse
 Error              red_   gry0   reverse
 ErrorMsg           red_   gry0   reverse
+
 # gold specials
 Debug              gold   none
 Delimiter          gold   none
