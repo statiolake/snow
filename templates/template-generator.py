@@ -288,8 +288,8 @@ hexcyan_dk = tohex( phic(1.02) , cro_dkacnt , hue_cyan )
 hexblue_dk = tohex( phic(1.02) , cro_dkacnt , hue_blue )
 hexmgnt_dk = tohex( phic(1.01) , cro_dkacnt , hue_mgnt )
 
-hexsrch_lt = tohex( phic(0.25) , phic(2.00) , hue_gold )
-hexsrch_dk = tohex( phic(1.50) , phic(3.00) , hue_gold )
+hexsrch_lt = tohex( phic(0.50) , phic(2.00) , hue_gold )
+hexsrch_dk = tohex( phic(1.00) , phic(3.00) , hue_gold )
 
 lum_ltspel = phic(1.50)
 cro_ltspel = phic(1.00)
@@ -320,7 +320,7 @@ print 'Color:      gry2 %s ~' % hexgry2_lt
 print 'Color:      gry3 %s ~' % hexgry3_lt
 print 'Color:      gryc %s ~' % hexgryc_lt
 print 'Color:      srch %s ~' % hexsrch_lt
-print 'Color:      grys %s ~' % hexgry1_dk
+print 'Color:      grys %s ~' % hexgryc_lt
 print 'Color:      gryp %s ~' % hexgry3_dk
 print 'Color:      sprd %s ~' % hexsprd_lt
 print 'Color:      spbl %s ~' % hexspbl_lt
@@ -349,7 +349,7 @@ print 'Color:      gry2 %s ~' % hexgry2_dk
 print 'Color:      gry3 %s ~' % hexgry3_dk
 print 'Color:      gryc %s ~' % hexgryc_dk
 print 'Color:      srch %s ~' % hexsrch_dk
-print 'Color:      grys %s ~' % hexgry1_lt
+print 'Color:      grys %s ~' % hexgry0_dk
 print 'Color:      gryp %s ~' % hexgry3_lt
 print 'Color:      sprd %s ~' % hexsprd_dk
 print 'Color:      spbl %s ~' % hexspbl_dk
