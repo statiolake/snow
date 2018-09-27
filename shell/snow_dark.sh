@@ -10,7 +10,7 @@ color03="a6/93/6c" # Base 0A - Yellow
 color04="7a/97/bd" # Base 0D - Blue
 color05="ad/89/ae" # Base 0E - Magenta
 color06="5b/9f/a3" # Base 0C - Cyan
-color07="ae/b8/c7" # Base 05 - White
+color07="b0/b7/c3" # Base 05 - White
 color08="35/38/3e" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
@@ -18,8 +18,8 @@ color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="c9/d3/e2" # Base 07 - Bright White
-color_foreground="ae/b8/c7" # Base 05
+color15="ce/d4/dd" # Base 07 - Bright White
+color_foreground="b0/b7/c3" # Base 05
 color_background="2b/2e/32" # Base 00
 
 if [ -n "$TMUX" ]; then
@@ -64,12 +64,12 @@ put_template 15 $color15
 # foreground / background / cursor color
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
-  put_template_custom Pg #aeb8c7 # foreground
+  put_template_custom Pg #b0b7c3 # foreground
   put_template_custom Ph #2b2e32 # background
-  put_template_custom Pi #aeb8c7 # bold color
+  put_template_custom Pi #b0b7c3 # bold color
   put_template_custom Pj #7a97bd # selection color
   put_template_custom Pk #2b2e32 # selected text color
-  put_template_custom Pl #aeb8c7 # cursor
+  put_template_custom Pl #b0b7c3 # cursor
   put_template_custom Pm #2b2e32 # cursor text
 else
   put_template_var 10 $color_foreground
