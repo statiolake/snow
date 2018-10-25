@@ -6,24 +6,24 @@ Short name:      snow
 Terminal Colors: 256
 
 Background: light
-Color:      gry0 #ffffff ~
-Color:      gry1 #eceef2 ~
-Color:      gry2 #6e7785 ~
-Color:      gry3 #555c66 ~
-Color:      gryc #444951 ~
-Color:      srch #ddbe7b ~
-Color:      grys #444951 ~
-Color:      gryp #b0b7c3 ~
-Color:      sprd #cb3e50 ~
-Color:      spbl #007bdc ~
-Color:      spcy #008b9a ~
-Color:      spmg #aa4eb4 ~
-Color:      red_ #b25d60 ~
-Color:      gold #8d7334 ~
-Color:      gren #45834c ~
-Color:      cyan #00838a ~
-Color:      blue #3f7ab5 ~
-Color:      mgnt #9a639f ~
+Color:      gry0 #fcffff ~
+Color:      gry1 #e5ebf0 ~
+Color:      gry2 #71777b ~
+Color:      gry3 #565b5f ~
+Color:      gryc #44494d ~
+Color:      srch #f5b56f ~
+Color:      grys #44494d ~
+Color:      gryp #b2b7bc ~
+Color:      sprd #cd3769 ~
+Color:      spbl #0082d5 ~
+Color:      spcy #008b7f ~
+Color:      spmg #8f5cc8 ~
+Color:      red_ #c0506f ~
+Color:      gold #a16a27 ~
+Color:      gren #50832f ~
+Color:      cyan #00857a ~
+Color:      blue #007cbd ~
+Color:      mgnt #8c64b7 ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_light.vim
@@ -266,24 +266,24 @@ set fish_pager_color_prefix      @guimgnt
 endauxfile
 
 Background: dark
-Color:      gry0 #2b2e32 ~
-Color:      gry1 #35383e ~
-Color:      gry2 #8c96a4 ~
-Color:      gry3 #b0b7c3 ~
-Color:      gryc #ced4dd ~
-Color:      srch #a6936c ~
-Color:      grys #2b2e32 ~
-Color:      gryp #555c66 ~
-Color:      sprd #d49b9b ~
-Color:      spbl #91add4 ~
-Color:      spcy #72b6ba ~
-Color:      spmg #c39fc5 ~
-Color:      red_ #be8786 ~
-Color:      gold #a6936c ~
-Color:      gren #799e7a ~
-Color:      cyan #5b9fa3 ~
-Color:      blue #7a97bd ~
-Color:      mgnt #ad89ae ~
+Color:      gry0 #2b2e30 ~
+Color:      gry1 #353a3e ~
+Color:      gry2 #8f9599 ~
+Color:      gry3 #b2b7bc ~
+Color:      gryc #cdd3d8 ~
+Color:      srch #b58d64 ~
+Color:      grys #2b2e30 ~
+Color:      gryp #565b5f ~
+Color:      sprd #eb8fa3 ~
+Color:      spbl #60b4ea ~
+Color:      spcy #3ebdb2 ~
+Color:      spmg #c09de2 ~
+Color:      red_ #c88190 ~
+Color:      gold #b58d64 ~
+Color:      gren #7f9d69 ~
+Color:      cyan #48a39a ~
+Color:      blue #5f9bc4 ~
+Color:      mgnt #a58abf ~
 Include:    _common.colortemplate
 
 auxfile autoload/airline/themes/snow_dark.vim
