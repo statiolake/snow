@@ -4,22 +4,22 @@
 # snow_light scheme by nightsense (https://github.com/nightsense/snow)
 
 color00="fc/ff/ff" # Base 00 - Black
-color01="c0/50/6f" # Base 08 - Red
-color02="50/83/2f" # Base 0B - Green
-color03="a1/6a/27" # Base 0A - Yellow
-color04="00/7c/bd" # Base 0D - Blue
-color05="8c/64/b7" # Base 0E - Magenta
-color06="00/85/7a" # Base 0C - Cyan
-color07="56/5b/5f" # Base 05 - White
-color08="e5/eb/f0" # Base 03 - Bright Black
+color01="b6/59/67" # Base 08 - Red
+color02="4d/83/43" # Base 0B - Green
+color03="95/70/33" # Base 0A - Yellow
+color04="1a/78/b3" # Base 0D - Blue
+color05="93/64/a6" # Base 0E - Magenta
+color06="00/82/81" # Base 0C - Cyan
+color07="54/5b/63" # Base 05 - White
+color08="e6/ea/f0" # Base 03 - Bright Black
 color09=$color01 # Base 08 - Bright Red
 color10=$color02 # Base 0B - Bright Green
 color11=$color03 # Base 0A - Bright Yellow
 color12=$color04 # Base 0D - Bright Blue
 color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
-color15="44/49/4d" # Base 07 - Bright White
-color_foreground="56/5b/5f" # Base 05
+color15="43/49/51" # Base 07 - Bright White
+color_foreground="54/5b/63" # Base 05
 color_background="fc/ff/ff" # Base 00
 
 if [ -n "$TMUX" ]; then
@@ -64,12 +64,12 @@ put_template 15 $color15
 # foreground / background / cursor color
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
-  put_template_custom Pg #565b5f # foreground
+  put_template_custom Pg #545b63 # foreground
   put_template_custom Ph #fcffff # background
-  put_template_custom Pi #565b5f # bold color
-  put_template_custom Pj #007cbd # selection color
+  put_template_custom Pi #545b63 # bold color
+  put_template_custom Pj #1a78b3 # selection color
   put_template_custom Pk #fcffff # selected text color
-  put_template_custom Pl #565b5f # cursor
+  put_template_custom Pl #545b63 # cursor
   put_template_custom Pm #fcffff # cursor text
 else
   put_template_var 10 $color_foreground

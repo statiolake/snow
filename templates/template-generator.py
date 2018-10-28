@@ -252,29 +252,29 @@ def print_fish(name,bg):
   print 'set fish_pager_color_prefix      @guimgnt'
   print 'endauxfile'
 
-hue_base = 247.5
+hue_base = 255.00
 
-hue_red_ = 007.5
-hue_gold = 067.5
-hue_gren = 127.5
-hue_cyan = 187.5
-hue_blue = 247.5
-hue_mgnt = 307.5
+hue_red_ = 015.00
+hue_gold = 075.00
+hue_gren = 135.00
+hue_cyan = 195.00
+hue_blue = 255.00
+hue_mgnt = 315.00
 
-cro_ltacnt = phic(1.50)
-cro_dkacnt = phic(2.50)
+cro_ltacnt = phic(1.88)
+cro_dkacnt = phic(2.88)
 
 hexgry0_lt = tohex( phic(0.00) , phic(8.00) , hue_base )
 hexgry1_lt = tohex( phic(0.16) , phic(7.00) , hue_base )
-hexgry2_lt = tohex( phic(1.46) , phic(7.00) , hue_base )
-hexgry3_lt = tohex( phic(1.99) , phic(7.00) , hue_base )
-hexgryc_lt = tohex( phic(2.45) , phic(7.00) , hue_base )
+hexgry2_lt = tohex( phic(1.46) , phic(6.00) , hue_base )
+hexgry3_lt = tohex( phic(1.99) , phic(6.00) , hue_base )
+hexgryc_lt = tohex( phic(2.45) , phic(6.00) , hue_base )
 
 hexgry0_dk = tohex( phic(3.50) , phic(8.00) , hue_base )
 hexgry1_dk = tohex( phic(2.97) , phic(7.00) , hue_base )
-hexgry2_dk = tohex( phic(1.02) , phic(7.00) , hue_base )
-hexgry3_dk = tohex( phic(0.62) , phic(7.00) , hue_base )
-hexgryc_dk = tohex( phic(0.36) , phic(7.00) , hue_base )
+hexgry2_dk = tohex( phic(1.02) , phic(6.00) , hue_base )
+hexgry3_dk = tohex( phic(0.62) , phic(6.00) , hue_base )
+hexgryc_dk = tohex( phic(0.36) , phic(6.00) , hue_base )
 
 hexred__lt = tohex( phic(1.44) , cro_ltacnt , hue_red_ )
 hexgold_lt = tohex( phic(1.44) , cro_ltacnt , hue_gold )
@@ -290,13 +290,13 @@ hexcyan_dk = tohex( phic(1.02) , cro_dkacnt , hue_cyan )
 hexblue_dk = tohex( phic(1.02) , cro_dkacnt , hue_blue )
 hexmgnt_dk = tohex( phic(1.01) , cro_dkacnt , hue_mgnt )
 
-hexsrch_lt = tohex( phic(0.50) , phic(1.50) , hue_gold )
-hexsrch_dk = tohex( phic(1.00) , phic(2.50) , hue_gold )
+hexsrch_lt = tohex( phic(0.50) , phic(1.88) , hue_gold )
+hexsrch_dk = tohex( phic(1.00) , phic(2.88) , hue_gold )
 
 lum_ltspel = phic(1.50)
-cro_ltspel = phic(1.00)
+cro_ltspel = phic(1.38)
 lum_dkspel = phic(0.75)
-cro_dkspel = phic(2.00)
+cro_dkspel = phic(2.38)
 
 hexsprd_lt = tohex( lum_ltspel , cro_ltspel , hue_red_ )
 hexspbl_lt = tohex( lum_ltspel , cro_ltspel , hue_blue )
