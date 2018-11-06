@@ -83,6 +83,26 @@
 <td><code>Cursor</code></td>
 </tr>
 <tr></tr>
+<tr>
+<td><code>Search</code></td>
+<td><img src='http://www.colorhexa.com/e5bb7e.png' height='24' width='39'></td>
+<td>
+<img src='http://www.colorhexa.com/bc4d61.png' height='24' width='6'>&nbsp;
+<img src='http://www.colorhexa.com/007cc3.png' height='24' width='6'>&nbsp;
+<img src='http://www.colorhexa.com/008787.png' height='24' width='6'>&nbsp;
+<img src='http://www.colorhexa.com/965dae.png' height='24' width='6'>
+</td>
+<td width='202' colspan='2'><code>Spell</code></td>
+<td>
+<img src='http://www.colorhexa.com/df969e.png' height='24' width='6'>&nbsp;
+<img src='http://www.colorhexa.com/7fb0df.png' height='24' width='6'>&nbsp;
+<img src='http://www.colorhexa.com/5eb9b7.png' height='24' width='6'>&nbsp;
+<img src='http://www.colorhexa.com/c39dd1.png' height='24' width='6'>
+</td>
+<td><img src='http://www.colorhexa.com/ab916d.png' height='24' width='39'></td>
+<td><code>Search</code></td>
+</tr>
+<tr></tr>
 
 <tr>
 <td colspan='8'>
