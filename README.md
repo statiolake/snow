@@ -117,8 +117,8 @@
 
 <br>
 
-**primary colors** of the standard additive model (<img src="http://www.colorhexa.com/ae5865.png" height='9' width='9'> red, <img src="http://www.colorhexa.com/4d7f43.png" height='9' width='9'> green, <img src="http://www.colorhexa.com/2b7ab2.png" height='9' width='9'> blue) are thus assigned to "regular" elements,<br>
-while **secondary colors** (<img src="http://www.colorhexa.com/8f63a2.png" height='9' width='9'> magenta, <img src="http://www.colorhexa.com/906c33.png" height='9' width='9'> yellow, <img src="http://www.colorhexa.com/008483.png" height='9' width='9'> cyan) are assigned to "elevated" (meta/special) elements
+**primary colors** of the standard additive model (<img src="http://www.colorhexa.com/ae5865.png" height='9' width='6'> red, <img src="http://www.colorhexa.com/4d7f43.png" height='9' width='6'> green, <img src="http://www.colorhexa.com/2b7ab2.png" height='9' width='6'> blue) are thus assigned to "regular" elements,<br>
+while **secondary colors** (<img src="http://www.colorhexa.com/8f63a2.png" height='9' width='6'> magenta, <img src="http://www.colorhexa.com/906c33.png" height='9' width='6'> yellow, <img src="http://www.colorhexa.com/008483.png" height='9' width='6'> cyan) are assigned to "elevated" (meta/special) elements
 
 </td>
 </tr>
