@@ -301,6 +301,10 @@ For the dark theme in a vim-plug setup, add to `~/.config/fish/config.fish`:
 source ~/.vim/plugged/snow/shell/snow_dark.fish
 ```
 
+## ports
+
+* [iterm2](https://github.com/mcchrish/iterm-snow)
+
 ---
 
 <a href='https://opensource.org/licenses/MIT'><img src='https://img.shields.io/badge/license-MIT-a31f34.svg?style=flat-square' /></a>
