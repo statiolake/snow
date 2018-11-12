@@ -4,6 +4,7 @@ vim -c 'Colortemplate! ~/Documents/code/vim/snow' $t -c 'qa!'
 
 for f in ../shell/*.sh
   sed -i '6,23s%"#\(..\)\(..\)\(..\)%"\1/\2/\3%' $f
+  sed -i '67,73s/#//' $f
 end
 
 for f in ../shell/*.fish
