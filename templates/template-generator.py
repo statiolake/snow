@@ -9,6 +9,47 @@ def tohex(l,c,h):
 def phic(e):
   return 0.61803398875**e*100
 
+def print_terminal():
+  print 'verbatim'
+  print 'if has("nvim")'
+  print '  let g:terminal_color_0 = "@guigry0"'
+  print '  let g:terminal_color_1 = "@guired_"'
+  print '  let g:terminal_color_2 = "@guigren"'
+  print '  let g:terminal_color_3 = "@guigold"'
+  print '  let g:terminal_color_4 = "@guiblue"'
+  print '  let g:terminal_color_5 = "@guimgnt"'
+  print '  let g:terminal_color_6 = "@guicyan"'
+  print '  let g:terminal_color_7 = "@guigry3"'
+  print '  let g:terminal_color_8 = "@guigry1"'
+  print '  let g:terminal_color_9 = "@guired_"'
+  print '  let g:terminal_color_10 = "@guigren"'
+  print '  let g:terminal_color_11 = "@guigold"'
+  print '  let g:terminal_color_12 = "@guiblue"'
+  print '  let g:terminal_color_13 = "@guimgnt"'
+  print '  let g:terminal_color_14 = "@guicyan"'
+  print '  let g:terminal_color_15 = "@guigryc"'
+  print 'elseif has("terminal")'
+  print '  let g:terminal_ansi_colors = ['
+  print '      \ "@guigry0",'
+  print '      \ "@guired_",'
+  print '      \ "@guigren",'
+  print '      \ "@guigold",'
+  print '      \ "@guiblue",'
+  print '      \ "@guimgnt",'
+  print '      \ "@guicyan",'
+  print '      \ "@guigry3",'
+  print '      \ "@guigry1",'
+  print '      \ "@guired_",'
+  print '      \ "@guigren",'
+  print '      \ "@guigold",'
+  print '      \ "@guiblue",'
+  print '      \ "@guimgnt",'
+  print '      \ "@guicyan",'
+  print '      \ "@guigryc"'
+  print '  \ ]'
+  print 'endif'
+  print 'endverbatim'
+
 def print_airline(name,bg):
   print 'auxfile autoload/airline/themes/%s_%s.vim' % (name, bg)
   print 'let g:airline#themes#%s_%s#palette = {}' % (name, bg)
@@ -336,6 +377,8 @@ print 'Color:      blue %s ~' % hexblue_lt
 print 'Color:      mgnt %s ~' % hexmgnt_lt
 print 'Include:    _common.colortemplate'
 print ''
+print_terminal()
+print ''
 print_airline('snow','light')
 print ''
 print_lightline('snow','light')
@@ -364,6 +407,8 @@ print 'Color:      cyan %s ~' % hexcyan_dk
 print 'Color:      blue %s ~' % hexblue_dk
 print 'Color:      mgnt %s ~' % hexmgnt_dk
 print 'Include:    _common.colortemplate'
+print ''
+print_terminal()
 print ''
 print_airline('snow','dark')
 print ''
