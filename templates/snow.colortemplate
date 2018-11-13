@@ -26,6 +26,46 @@ Color:      blue #2b7ab2 ~
 Color:      mgnt #8f63a2 ~
 Include:    _common.colortemplate
 
+verbatim
+if has("nvim")
+  let g:terminal_color_0 = "@guigry0"
+  let g:terminal_color_1 = "@guired_"
+  let g:terminal_color_2 = "@guigren"
+  let g:terminal_color_3 = "@guigold"
+  let g:terminal_color_4 = "@guiblue"
+  let g:terminal_color_5 = "@guimgnt"
+  let g:terminal_color_6 = "@guicyan"
+  let g:terminal_color_7 = "@guigry3"
+  let g:terminal_color_8 = "@guigry1"
+  let g:terminal_color_9 = "@guired_"
+  let g:terminal_color_10 = "@guigren"
+  let g:terminal_color_11 = "@guigold"
+  let g:terminal_color_12 = "@guiblue"
+  let g:terminal_color_13 = "@guimgnt"
+  let g:terminal_color_14 = "@guicyan"
+  let g:terminal_color_15 = "@guigryc"
+elseif has("terminal")
+  let g:terminal_ansi_colors = [
+      \ "@guigry0",
+      \ "@guired_",
+      \ "@guigren",
+      \ "@guigold",
+      \ "@guiblue",
+      \ "@guimgnt",
+      \ "@guicyan",
+      \ "@guigry3",
+      \ "@guigry1",
+      \ "@guired_",
+      \ "@guigren",
+      \ "@guigold",
+      \ "@guiblue",
+      \ "@guimgnt",
+      \ "@guicyan",
+      \ "@guigryc"
+  \ ]
+endif
+endverbatim
+
 auxfile autoload/airline/themes/snow_light.vim
 let g:airline#themes#snow_light#palette = {}
 
@@ -285,6 +325,46 @@ Color:      cyan #5da19f ~
 Color:      blue #759abd ~
 Color:      mgnt #a88cb3 ~
 Include:    _common.colortemplate
+
+verbatim
+if has("nvim")
+  let g:terminal_color_0 = "@guigry0"
+  let g:terminal_color_1 = "@guired_"
+  let g:terminal_color_2 = "@guigren"
+  let g:terminal_color_3 = "@guigold"
+  let g:terminal_color_4 = "@guiblue"
+  let g:terminal_color_5 = "@guimgnt"
+  let g:terminal_color_6 = "@guicyan"
+  let g:terminal_color_7 = "@guigry3"
+  let g:terminal_color_8 = "@guigry1"
+  let g:terminal_color_9 = "@guired_"
+  let g:terminal_color_10 = "@guigren"
+  let g:terminal_color_11 = "@guigold"
+  let g:terminal_color_12 = "@guiblue"
+  let g:terminal_color_13 = "@guimgnt"
+  let g:terminal_color_14 = "@guicyan"
+  let g:terminal_color_15 = "@guigryc"
+elseif has("terminal")
+  let g:terminal_ansi_colors = [
+      \ "@guigry0",
+      \ "@guired_",
+      \ "@guigren",
+      \ "@guigold",
+      \ "@guiblue",
+      \ "@guimgnt",
+      \ "@guicyan",
+      \ "@guigry3",
+      \ "@guigry1",
+      \ "@guired_",
+      \ "@guigren",
+      \ "@guigold",
+      \ "@guiblue",
+      \ "@guimgnt",
+      \ "@guicyan",
+      \ "@guigryc"
+  \ ]
+endif
+endverbatim
 
 auxfile autoload/airline/themes/snow_dark.vim
 let g:airline#themes#snow_dark#palette = {}
