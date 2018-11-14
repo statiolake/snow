@@ -304,6 +304,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 ## ports
 
 * [iterm2](https://github.com/mcchrish/iterm-snow)
+* [tmux](https://github.com/mcchrish/snow-tmux)
 
 ---
 
