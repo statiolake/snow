@@ -291,6 +291,24 @@ If you use vundle, replace `plugged` in the above paths with `bundle`.
 
 Replace `dark` with `light` for the light theme.
 
+### dircolors
+
+The text highlighting used by the `ls` command (for distinguishing file types) can be themed by sourcing the "dircolors" file included with snow. The path to this file will depend on your plugin management method.
+
+For instance, if you use vim-plug and want to apply the snow dircolors to your bash or zsh shell, add the following to `~/.bashrc` or `~/.zshrc`:
+
+```
+eval `dircolors ~/.vim/plugged/snow/shell/dircolors`
+```
+
+Or for the fish shell, add to `~/.config/fish/config.fish`:
+
+```
+eval (dircolors -c ~/.vim/plugged/snow/shell/dircolors)
+```
+
+If you use vundle, replace `plugged` in the above paths with `bundle`.
+
 ### fish syntax
 
 Again, the script path will depend on your plugin management method.
