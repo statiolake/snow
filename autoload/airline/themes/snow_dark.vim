@@ -35,4 +35,3 @@ endif
 
 let g:airline#themes#snow_dark#palette.ctrlp =
   \ airline#extensions#ctrlp#generate_color_map( s:nrm2 , s:nrm1 , s:nrm2 )
-

@@ -45,4 +45,3 @@ set fish_color_quote             759abd
 
 # magenta pager name match
 set fish_pager_color_prefix      a88cb3
-

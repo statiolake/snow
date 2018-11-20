@@ -104,4 +104,3 @@ unset color14
 unset color15
 unset color_foreground
 unset color_background
-
