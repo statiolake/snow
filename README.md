@@ -323,6 +323,7 @@ source ~/.vim/plugged/snow/shell/snow_dark.fish
 
 * [iterm2](https://github.com/mcchrish/iterm-snow)
 * [tmux](https://github.com/mcchrish/snow-tmux)
+* [kitty](https://github.com/mcchrish/kitty-snow)
 
 ---
 
