@@ -278,6 +278,18 @@ elseif has("terminal")
       \ "#434951"
       \ ]
 endif
+
+" Fix some delimiter colorization
+" vimscript
+hi! link vimSep Normal
+hi! link vimParenSep Normal
+
+" typescript
+hi! link typescriptParens Normal
+hi! link typescriptBraces Normal
+hi! link typescriptEndColons Normal
+hi! link typescriptLogicSymbols Normal
+
 finish
 
 " Background: light
